@@ -1,0 +1,29 @@
+.pulse {
+	/*background-color: rgba(255, 82, 82, 1);*/
+	height: 60px;
+	width: 60px;
+	background: #120a8f;
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 60px;
+	text-align: center;
+	animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(18, 10, 143, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(18, 10, 143, 0);
+	}
+	
+	100% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(18, 10, 143, 0);
+	}
+}

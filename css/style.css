@@ -1,0 +1,152 @@
+/* ALTERAÇÃO DO .BODY - FONTE DE TEXTO GERAL POPPINS SANS-SERIF */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+/* LOGOTIPO PARA TODOS DO NAVBAR */
+.navbar-brand img {
+	height: 4rem !important;
+}
+
+/* TAMANHO DA FONTE NO NAVBAR
+.navbartexto {
+	font-weight: 600;
+	font-size: 18px;
+} */
+
+/* ESPAÇO ENTRE LINHAS SUPERIOR */
+.margem-superior-60 {
+  margin-top: 60px;
+}
+
+/* ESPAÇO ENTRE LINHAS INFERIOR */
+.margem-inferior-60 {
+  margin-bottom: 100px;
+}
+
+/* TAMANHO DA FONTE PARA TERMOS DE CONTRATO EM FORMULÁRIOS */
+.termos-contrato {
+   font-size: 11px;
+}
+
+
+
+
+/* PRIMEIRO NAVBAR BLUE PADRÃO DA PLATAFORMA MYNAVBLUE */
+.nav-link {
+    color: #ffffff;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #ffffff;
+}
+.mynavblue {
+    background-color: #1d2c57;
+}
+.mynavblue a {
+    margin-right: 30px;
+    border-bottom: 3px solid transparent;
+}
+.mynavblue a:hover {
+    border-bottom: 3px solid #ffffff;
+}
+.active a {
+    border-bottom: 3px solid #ffffff;
+}
+
+/* SEGUNDO NAVBAR BLUE PADRÃO DA PLATAFORMA MYNAVBLACK*/
+.mynavblack {
+    background-color: #000000;
+    font-size: 14px;
+
+}
+.mynavblack a {
+    margin-right: 30px;
+    border-bottom: 2px solid transparent;
+}
+.mynavblack a:hover {
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+.active a {
+    border-bottom: 3px solid #ffffff;
+}
+
+/* EFEITO BOTÃO */
+.mrt a {
+    background: #181174;
+    color: #fff !important;
+    margin-top: 8px;
+    border-radius: 50px;
+    padding: 10px 15px !important;
+    box-shadow: 3px 3px 5px #777;
+    width: 260px;
+    text-align: center;
+}
+.mrt a:hover {
+    background: #3B3779;
+    border-bottom: 3px solid #3B3779;
+    box-shadow: none;
+}
+
+
+/* OPÇÕES DE FORMULÁRIO PADRÃO --- INICIO */
+.login-container{
+  height: 100vh;
+  width: 100%;
+}
+.login-form{
+  margin: auto;
+  width: 370px;
+  padding: 15px;
+  max-width: 100%;
+}
+.login-form .form-control{
+  font-size: 15px;
+  min-height: 48px;
+  font-weight: 500;
+}
+.login-form a{
+  text-decoration: none;
+  color:#666;
+}
+.login-form a:hover{
+  color: #e2b605;
+}
+.forgot-link{
+  font-size: 13px;
+}
+
+.form-control:focus{
+  border-color: #e2b605;
+  box-shadow: 0 0 0 0.1rem rgba( 226, 182, 5, .25);
+}
+.btn-custom{
+  background: #181174;
+  border-color: #181174;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #2271b3;
+  border-color: #2271b3;
+  color:#fff;
+}
+.btn-custom:focus{
+  box-shadow: 0 0 0 0.2rem rgba(34,113,179,.25);
+}
+/* OPÇÕES DE FORMULÁRIO PADRÃO --- FINAL */
+
+
+
+
+
