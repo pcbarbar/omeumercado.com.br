@@ -37,44 +37,37 @@
         background-size: 100%;
       }
     </style>
-    
   </head>
   <body>
     
 <!-- PRIMEIRO NAVBAR - INICIO -->
-      <nav class="navbar navbar-expand-xl shadow mynavblue fixed-top">
-        <div class="container center">
-          <a class="navbar-brand" href="index.php"><img src="imagens/omeumercado.png"></a>
-          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite #navbarSite2">
+      <nav class="navbar navbar-expand-xl mynavblue border">
+        <div class="container">      
+        <a class="navbar-toggler" data-toggle="collapse" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado40.png"></img></a>-->  
+          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
             <i class="fas fa-bars"></i>
           </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSite">
-              <ul class="navbar-nav ml-4">
+          <div class="collapse navbar-collapse" id="navbarSite">
+          <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado90.png"></a>
+              <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                <li class="nav-item active"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
+                <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook"></i></a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
               </ul>
-              <div class="mrt">
-                <ul>
-                  <li class="nav-item"><a class="nav-link" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></a></li>
-                </ul>
-              </div>
-            
+              <button class="btn mt-0 rounded-pill btn-lg btn-custom" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></button>
+            </div>
           </div>
         </div>
-      </nav>
+      </nav>  
 <!-- PRIMEIRO NAVBAR - FINAL -->
 
 <!-- SEGUNDO NAVBAR - INICIO -->
-      <nav class="navbar navbar-expand-xl mynavblack margem-superior-94">
+      <nav class="navbar navbar-expand-xl mynavblack" style="margin-top: 1px";>
         <div class="container">
-          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite2"><i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSite2">
+          <div class="collapse navbar-collapse" id="navbarSite">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a class="nav-link" href="#">Como funciona</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Saiba mais</a></li>
