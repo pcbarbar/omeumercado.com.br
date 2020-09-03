@@ -42,10 +42,10 @@
   <body>
     
 <!-- PRIMEIRO NAVBAR - INICIO -->
-      <nav class="navbar navbar-expand-xl mynavblue">
+      <nav class="navbar navbar-expand-xl shadow mynavblue fixed-top">
         <div class="container center">
           <a class="navbar-brand" href="index.php"><img src="imagens/omeumercado.png"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite #navbarSite2">
             <i class="fas fa-bars"></i>
           </button>
           
@@ -70,16 +70,17 @@
 <!-- PRIMEIRO NAVBAR - FINAL -->
 
 <!-- SEGUNDO NAVBAR - INICIO -->
-      <nav class="navbar navbar-expand-xl shadow mynavblack">
+      <nav class="navbar navbar-expand-xl mynavblack margem-superior-94">
         <div class="container">
-          <div class="collapse navbar-collapse" id="navbarSite">
+          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite2"><i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSite2">
             <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Como funciona</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Saiba mais</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Quem somos</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Outra coisa</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Escrever aqui</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Mais coisas</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Aqui também</a></li>
               <li class="nav-item"><a class="nav-link" href="loginparceiro.php">FAQ</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Precisa de Ajuda? <i class="fas fa-phone"></i></a></li>
             </ul>
@@ -88,67 +89,69 @@
       </nav>
 <!-- SEGUNDO NAVBAR - FINAL -->
 
-
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
-      <div class="container-fluid margem-superior-60 margem-inferior-60">
-        <div class="container-fluid big-banner">
+<div class="container-fluid border shadow mb-5 bg-white rounded margem-superior-30" style="width: 95%";>
+    <div class="container-fluid margem-superior-60 margem-inferior-60">
+      <div class="container-fluid big-banner">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-6">
+          <div class="row mt-3">
+          <h1 class="">Comece a vender on-line agora <i class="fas fa-arrow-right"></i></h1></p>
+          </div>
           <div class="row">
-            <div class="col"></div>
-            <div class="col-6">
-            <div class="row">
-              <h1 class="">Comece a vender on-line agora <i class="fas fa-arrow-right"></i></h1></p>
-            </div>
-            <div class="row">
-              <h4>Seja nosso parceiro sem gastar nada</h4>
-            </div>
+            <h4>Seja nosso parceiro sem gastar nada</h4>
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+
+          <!-- ATENÇÃO: CPF NÃO VALIDADO!!!!!!!!!!!! -->
+
+          <form action="validaprecadastro.php" method="post" class="login-form text-center card" onsubmit="limparMascara()">
+              <h4 class="font-weight-light mb-4">Cadastre-se já!</h4>
+              <div class="form-group mb-1">
+                <input type="email" class="form-control rounded-pill" id="email" name="email" minlength="6" maxlength="100" placeholder="E-mail" required>
+              </div>
+              <div class="form-group mb-1">
+                <input type="text" class="form-control rounded-pill" id="nome" name="nome" minlength="2" maxlength="100" placeholder="Nome Completo" required>
+              </div>
+              <div class="form-group mb-1">
+                <input type="text" class="form-control rounded-pill cpf" id="cpf" name="cpf" minlength="14" maxlength="14" placeholder="CPF" required>
+              </div>
+              <div class="form-row">
+                <div class="form-group mb-1 col-md-4">
+                  <input type="int" class="form-control rounded-pill" id="ddd" name="ddd" minlength="2" maxlength="2" placeholder="DDD" required>
+                </div>
+                <div class="form-group mb-1 col-md-8">
+                  <input type="text" class="form-control rounded-pill" id="celular" name="celular" minlength="10" maxlength="10" placeholder="Celular" required>
+                </div>
+              </div>
+              <!--
+              <div class="form-group mb-1">
+                <input type="password" class="form-control rounded-pill" id="senha" name="senha" minlength="6" maxlength="6"placeholder="Crie uma senha de 6 dígitos" required>
+              </div>-->
+              <div class="form-group mb-1">
+                <input type="text" class="form-control rounded-pill" id="cupomindica" name="cupomindica" minlength="8" maxlength="8" placeholder="Cupom de indicação (opcional)">
+              </div>
+              <div>
+                <a href="#" data-toggle="modal" data-target="#modalExemplo"><h6 class="text-right mb-3">Precisa de ajuda?</h6></a>
+                <h1 class="text-left termos-contrato text-black mb-1">Ao continuar, eu concordo com os <a href="#"><u>Termos de Uso</u></a> do OMEUMERCADO e confirmo que li a <a href="#"><u>Política de Privacidade</u></a>.</h1>
+                <h1 class="text-left termos-contrato text-black mb-0">Eu também concordo que o OMEUMERCADO e seus representantes podem entrar em contato comigo por whatsapp, e-mail, telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que eu forneci, inclusive para fins de marketing.</h1>
+              </div>
+
+              <button type="submit" class="btn mt-3 rounded-pill btn-lg btn-custom btn-block">PROSSEGUIR <i class="far fa-arrow-alt-circle-right"></i></button>
+              <p class="mt-3 font-weight-normal">Já tem conta? <a href="loginparceiro.php"><strong>Entrar</strong></a></p>
+              </form>
           </div>
           <div class="col"></div>
-          <div class="col">
-
-            <!-- ATENÇÃO: CPF NÃO VALIDADO!!!!!!!!!!!! -->
-
-            <form action="validaprecadastro.php" method="post" class="login-form text-center card" onsubmit="limparMascara()">
-                <h4 class="font-weight-light mb-4">Cadastre-se já!</h4>
-                <div class="form-group mb-1">
-                  <input type="email" class="form-control rounded-pill" id="email" name="email" minlength="6" maxlength="100" placeholder="E-mail" required>
-                </div>
-                <div class="form-group mb-1">
-                  <input type="text" class="form-control rounded-pill" id="nome" name="nome" minlength="2" maxlength="100" placeholder="Nome Completo" required>
-                </div>
-                <div class="form-group mb-1">
-                  <input type="text" class="form-control rounded-pill cpf" id="cpf" name="cpf" minlength="14" maxlength="14" placeholder="CPF" required>
-                </div>
-                <div class="form-row">
-                  <div class="form-group mb-1 col-md-4">
-                    <input type="int" class="form-control rounded-pill" id="ddd" name="ddd" minlength="2" maxlength="2" placeholder="DDD" required>
-                  </div>
-                  <div class="form-group mb-1 col-md-8">
-                    <input type="text" class="form-control rounded-pill" id="celular" name="celular" minlength="10" maxlength="10" placeholder="Celular" required>
-                  </div>
-                </div>
-                <!--
-                <div class="form-group mb-1">
-                  <input type="password" class="form-control rounded-pill" id="senha" name="senha" minlength="6" maxlength="6"placeholder="Crie uma senha de 6 dígitos" required>
-                </div>-->
-                <div class="form-group mb-1">
-                  <input type="text" class="form-control rounded-pill" id="cupomindica" name="cupomindica" minlength="8" maxlength="8" placeholder="Cupom de indicação (opcional)">
-                </div>
-                <div>
-                  <a href="#" data-toggle="modal" data-target="#modalExemplo"><h6 class="text-right mb-3">Precisa de ajuda?</h6></a>
-                  <h1 class="text-left termos-contrato text-black mb-1">Ao continuar, eu concordo com os <a href="#"><u>Termos de Uso</u></a> do OMEUMERCADO e confirmo que li a <a href="#"><u>Política de Privacidade</u></a>.</h1>
-                  <h1 class="text-left termos-contrato text-black mb-0">Eu também concordo que o OMEUMERCADO e seus representantes podem entrar em contato comigo por whatsapp, e-mail, telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que eu forneci, inclusive para fins de marketing.</h1>
-                </div>
-
-                <button type="submit" class="btn mt-3 rounded-pill btn-lg btn-custom btn-block">PROSSEGUIR <i class="far fa-arrow-alt-circle-right"></i></button>
-                <p class="mt-3 font-weight-normal">Já tem conta? <a href="loginparceiro.php"><strong>Entrar</strong></a></p>
-               </form>
-            </div>
-            <div class="col"></div>
-            <div class="col"></div>
-          </div>
-      </div>
+          <div class="col"></div>
+        </div>
     </div>
+  </div>
+</div>
 <!-- FORMULÁRIO DE CADASTRO - FINAL -->
+
 
 <!-- MODAL PRECISA DE AJUDA? - INICIO -->
     <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -171,46 +174,43 @@
     </div>
 <!-- MODAL PRECISA DE AJUDA? - FINAL -->
 
-  <!-- CAROUSEL - INICIO -->
-    <div class="container margem-superior-60">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="imagens/banner1.jpg">
+
+<!-- CAROUSEL - INICIO -->
+    
+      <div class="container-fluid margem-superior-30" style="width: 95%";>
+        <div id="myCarousel" class="carousel slide shadow" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="imagens/banner1.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="imagens/banner2.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="imagens/banner3.jpg">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="imagens/banner2.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="imagens/banner3.jpg">
-          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
       </div>
-    </div>
-  <!-- CAROUSEL - FINAL -->
+    
+<!-- CAROUSEL - FINAL -->
 
-    <div class="container bg-info">
-      <?php
-        echo "O Gerador de Texto Lorem Ipsum pode ser utilizado para você que está desenvolvendo seu projeto e precisa de texto aleatório para preencher os espaços e fazer testes. Assim, dá para testar o layout e a formatação antes de utilizar com conteúdo real.
+      
 
-        Exemplo de texto gerado: lorem ipsum dolor sit amet consectetur adipiscing elit sagittis velit torquent class ornare lobortis litora a duis lectus congue porttitor cubilia turpis inceptos lacinia ex suspendisse maximus tortor enim consequat feugiat pharetra penatibus curae tristique ligula eleifend at auctor tempus
-
-        Palavras-chave: gerador de lorem ipsum, gerar texto aleatório.";
-      ?>
-    </div>
+    
 
 
     <!-- FOOTER PADRÃO PARA PLATAFORMA -->
