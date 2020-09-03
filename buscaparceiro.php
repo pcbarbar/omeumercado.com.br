@@ -37,29 +37,6 @@
   </head>
   <body>
     
-       <!-- NavBar Fixo -->
-      <nav class="navbar border-bottom navbar-expand-lg navbartexto shadow p-3 mb-5 rounded">
-        <div class="container">
-          <a class="navbar-brand" href="index.php"><img src="imagens/omeumercado.png"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSite">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link" href="#">Saiba mais</a></li>
-              <li class="nav-item"><a class="nav-link" href="loginparceiro.php">Entrar</a></li>
-              <li class="nav-item"><a class="nav-link" href="buscaparceiro.php">Quero fazer compras</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Contato <i class="fas fa-phone"></i></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook"></i></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-
-
       <div class="container border margem-superior-60 margem-inferior-60">
         <div class="row">
           <div class="col">

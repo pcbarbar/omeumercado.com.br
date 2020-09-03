@@ -39,57 +39,47 @@
     </style>
   </head>
   <body>
-    
-      <?php
-        $_SESSION['menuplataforma']=
-      
-      
-      
-      
-      
-
-
 
 <!-- PRIMEIRO NAVBAR - INICIO -->
-      <nav class="navbar navbar-expand-xl mynavblue border">
-        <div class="container">      
+    <nav class="navbar navbar-expand-xl mynavblue border">
+      <div class="container">      
         <a class="navbar-toggler" data-toggle="collapse" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado40.png"></img></a>
-          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSite">
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSite">
           <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado90.png"></a>
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
-              </ul>
-              <button class="btn mt-0 rounded-pill btn-lg btn-custom" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></button>
-            </div>
-          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
+            <li class="nav-item"><a class="nav-link btn rounded-pill btn-custom btn-block col-4" style="border-bottom: 0; padding-top: 10px;" type="bottom" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></a></li>
+          </ul>
+          
         </div>
-      </nav>  
+      </div>
+    </nav>  
 <!-- PRIMEIRO NAVBAR - FINAL -->
 
 <!-- SEGUNDO NAVBAR - INICIO -->
-      <nav class="navbar navbar-expand-xl mynavblack" style="margin-top: 1px";>
-        <div class="container">
-          <div class="collapse navbar-collapse" id="navbarSite">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item"><a class="nav-link" href="#">Como funciona</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Saiba mais</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Quem somos</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Escrever aqui</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Mais coisas</a></li>
-              <li class="nav-item"><a class="nav-link" href="loginparceiro.php">FAQ</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Precisa de Ajuda? <i class="fas fa-phone"></i></a></li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-xl mynavblack" style="margin-top: 1px";>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="buscaparceiro.php">Como funciona</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Saiba mais</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Quem somos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Escrever aqui</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Mais coisas</a></li>
+            <li class="nav-item"><a class="nav-link" href="loginparceiro.php">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Precisa de Ajuda? <i class="fas fa-phone"></i></a></li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 <!-- SEGUNDO NAVBAR - FINAL -->
 
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
@@ -109,7 +99,7 @@
         <div class="col"></div>
         <div class="col">
 
-          <!-- ATENÇÃO: CPF NÃO VALIDADO!!!!!!!!!!!! -->
+          <!-- OBS: CPF NÃO VALIDADO!!!!!!!!!!!! -->
 
           <form action="validaprecadastro.php" method="post" class="login-form text-center card" onsubmit="limparMascara()">
               <h4 class="font-weight-light mb-4">Cadastre-se já!</h4>
@@ -130,10 +120,6 @@
                   <input type="text" class="form-control rounded-pill" id="celular" name="celular" minlength="10" maxlength="10" placeholder="Celular" required>
                 </div>
               </div>
-              <!--
-              <div class="form-group mb-1">
-                <input type="password" class="form-control rounded-pill" id="senha" name="senha" minlength="6" maxlength="6"placeholder="Crie uma senha de 6 dígitos" required>
-              </div>-->
               <div class="form-group mb-1">
                 <input type="text" class="form-control rounded-pill" id="cupomindica" name="cupomindica" minlength="8" maxlength="8" placeholder="Cupom de indicação (opcional)">
               </div>
@@ -243,6 +229,7 @@
     <!-- Boostrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
+    <!-- MÁSCARA PARA FORMULÁRIOS -->
     <script>
       $(document).ready(function(){
       //Telefone
