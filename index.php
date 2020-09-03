@@ -53,12 +53,13 @@
             <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
-            <li class="nav-item"><a class="nav-link btn rounded-pill btn-custom btn-block col-4" style="border-bottom: 0; padding-top: 10px;" type="bottom" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-facebook"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-instagram"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-youtube"></i></a></li>
+            <div class="efeitobtn" style="margin-top: 0px;">
+              <li class="nav-item"><a class="nav-link" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></a></li>
+            </div>
           </ul>
-          
         </div>
       </div>
     </nav>  
@@ -83,13 +84,13 @@
 <!-- SEGUNDO NAVBAR - FINAL -->
 
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
-<div class="container-fluid border shadow mb-5 bg-white rounded margem-superior-30" style="width: 95%";>
-    <div class="container-fluid margem-superior-60 margem-inferior-60">
+<div class="container-fluid border shadow mb-5 bg-white rounded" style="width: 95%; margin-top: 10px;">
+    <div class="container-fluid margem-superior-30" style="margin-bottom: 30px;">
       <div class="container-fluid big-banner">
         <div class="row">
           <div class="col"></div>
           <div class="col-6">
-          <div class="row mt-3">
+          <div class="row mt-4">
           <h1 class="">Comece a vender on-line agora <i class="fas fa-arrow-right"></i></h1></p>
           </div>
           <div class="row">
