@@ -3,14 +3,18 @@
 body{
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  font-size: 100%;
   background-color: #dcdcdc; /* FUNDO CINZA */
 }
 
-/* LOGOTIPO PARA TODOS DO NAVBAR */
-.navbar-brand img {
-  /* height: 4rem !important; */
-  height: 90px !important;
-}
+/* FONTES RESPONSIVAS */
+.h1responsiva {font-size: calc(1.5em + 1vw);}
+.h2responsiva {font-size: calc(1em + 1vw);}
+.h3responsiva {font-size: calc(.76em + 1vw);}
+.h4responsiva {font-size: calc(.51em + 1vw);}
+.h5responsiva {font-size: calc(.26em + 1vw);}
+.h6responsiva {font-size: calc(.01em + 1vw);}
+.presponsiva {font-size: calc(.01em + 1vw);}
 
 /* ESPAÇO ENTRE LINHAS SUPERIOR */
 .margem-superior-60 {

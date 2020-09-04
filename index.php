@@ -36,28 +36,21 @@
         background-position: bottom;
         background-size: 100%;
       }
-      /* IMAGEM DE FUNDO PARA O 1o. CARD*/
-      .bgcard1 {
-        /*background-image: url("imagens/.jpg");*/
-        background-repeat: repeat;
-        background-size: 100%;
-        background-color: #ffffff;
-        color: #000000;
-        font-size: 16px;
-      }
     </style>
   </head>
   <body>
 
-<!-- PRIMEIRO NAVBAR - INICIO -->
+
     <nav class="navbar navbar-expand-xl mynavblue border">
       <div class="container">      
-        <a class="navbar-toggler" data-toggle="collapse" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado40.png"></img></a>
+
+      <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img class="img-fluid" style="max-width: 100%; height: auto;" src="imagens/logoomeumercado90.png"></a>
+
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
           <i class="fas fa-bars"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSite">
-          <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado90.png"></a>
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
@@ -71,7 +64,33 @@
           </ul>
         </div>
       </div>
-    </nav>  
+    </nav>
+
+
+
+<!-- PRIMEIRO NAVBAR - INICIO 
+    <nav class="navbar navbar-expand-xl mynavblue border">
+      <div class="container">      
+        <a class="navbar-toggler" data-toggle="collapse" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado40.png"></img></a>
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <a class="navbar-brand img-fluid" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado90.png"></a>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-facebook"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-instagram"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-youtube"></i></a></li>
+            <div class="efeitobtn" style="margin-top: 0px;">
+              <li class="nav-item"><a class="nav-link" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>  -->
 <!-- PRIMEIRO NAVBAR - FINAL -->
 
 <!-- SEGUNDO NAVBAR - INICIO -->
@@ -91,18 +110,19 @@
     </nav>
 <!-- SEGUNDO NAVBAR - FINAL -->
 
+
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
-<div class="container-fluid border shadow mb-5 bg-white rounded" style="width: 95%; margin-top: 10px;">
+<div class="container-fluid border shadow mb-5 bg-white rounded" style="width: 95%; margin-top: 30px;" id="cadastraragora">
     <div class="container-fluid margem-superior-30" style="margin-bottom: 30px;">
       <div class="container-fluid big-banner">
         <div class="row">
           <div class="col"></div>
           <div class="col-6">
           <div class="row mt-4">
-          <h1 class="text-fluid">Comece a vender on-line agora <i class="fas fa-arrow-right"></i></h1></p>
+          <h1 class="h1responsiva">Comece a vender on-line agora <i class="fas fa-arrow-right"></i></h1></p>
           </div>
           <div class="row">
-            <h4>Seja nosso parceiro sem gastar nada</h4>
+            <h4 class="h4responsiva">Seja nosso parceiro sem gastar nada</h4>
           </div>
         </div>
         <div class="col"></div>
@@ -182,45 +202,46 @@
 
 
 <!-- 4 CARDS ---- INÍCIO -->
-    <div class="container-fluid" style="width: 95%;" id="saibamais">
+    <div class="container-fluid" style="width: 98%;" id="saibamais">
       <div class="row">
-        <div class="col pl-2 pr-5">
-          <div class="shadow rounded bgcard1 pr-2 pl-2 pb-3 pt-3 border">
+        <div class="col-sm-3">
+          <div class="card shadow rounded pb-4 pt-4 pr-4 pl-4">
             <div class="text-center"><img src="https://img.icons8.com/nolan/96/money-bag.png"></div>
             <p class="text-center"><br>Parceiro, este é uma plataforma diferente: você não paga implantação, mensalidade, implementações, suporte, treinamentos, no OMeuMercado você paga apenas uma pequena colaboração quando vender. Ainda não se casdastrou? Então dê esse primeiro passo, torne-se nosso parceiro e começe as suas vendas on-line agora!</p>
           </div>
         </div>
-        <div class="col pl-0 pr-5">
-          <div class="shadow rounded bgcard1 pr-2 pl-2 pb-3 pt-3">
+        <div class="col-sm-3">
+          <div class="card shadow rounded pb-4 pt-4 pr-4 pl-4">
             <div class="text-center"><img src="https://img.icons8.com/nolan/96/online-store.png"/></div>
             <p class="text-center"><br>Com a implantação das vendas on-line do OMeuMercado, você perceberá nosso difencial pois além de proporcionar a você um aumento considerável nas vendas também daremos suporte, incentivos e descontos para seus clientes por nossa conta, o cliente é a alma do negócio, mas também o gestor, conosco estará completo! Esperando o que para se cadastrar?</p>
           </div>
         </div>
-        <div class="col pl-0 pr-5">
-          <div class="shadow rounded bgcard1 pr-2 pl-2 pb-3 pt-3">
+        <div class="col-sm-3">
+          <div class="card shadow rounded pb-4 pt-4 pr-4 pl-4">
             <div class="text-center"><img src="https://img.icons8.com/nolan/96/move-stock.png"/></div>
-            <p class="text-center"><br>Estoque, entregas, pagamentos, enfim tudo que se relaciona com vendas OMeuMercado disponibiliza de forma prática para você poder visualizar tudo sem perda de tempo, temos soluções para melhorar sua logística fazendo assim uma obtenção maior de lucro com as vendas, pensamos sempre em você. Não fique de fora, comece vender on-line já, cadastre-se no OMeuMercado!</p>
+            <p class="text-center"><br>Estoque, entregas, pagamentos, enfim tudo que se relaciona com vendas OMeuMercado disponibiliza de forma prática para você poder visualizar tudo sem perda de tempo, temos soluções para melhorar sua logística fazendo assim uma obtenção maior de lucro com as vendas, pensamos sempre em você. Não fique de fora, comece a vender on-line já, cadastre-se!</p>
           </div>
         </div>
-        <div class="col">
-        <div class="shadow rounded bgcard1 pr-2 pl-2 pb-3 pt-3">
-          <div class="text-center"><img src="https://img.icons8.com/nolan/96/client-company.png"/></div>
-            <p class="text-center"><br>Pensando em como será tudo isso funcionando? Nossa plataforma de vendas é intuitiva, tanto para você, como para seu cliente! É tudo bem parecido com o que já faz, só que melhor, e lembra daquele consumidor do outro bairro? Ele poderá facilmente ser seu cliente e fazer compras com você agora, pense nisso! Se já estiver pronto para ver como é basta se cadastrar!</p>
+        <div class="col-sm-3">
+          <div class="card shadow rounded pb-4 pt-4 pr-4 pl-4">
+            <div class="text-center"><img src="https://img.icons8.com/nolan/96/client-company.png"/></div>
+            <p class="text-center"><br>Pensando em como será tudo isso funcionando? Nossa plataforma de vendas é intuitiva, tanto para você, como para seu cliente! É tudo bem parecido com o que já faz, só que melhor, e lembra daquele consumidor do outro bairro? Ele poderá facilmente ser seu cliente e fazer compras com você agora, pense nisso! Se já estiver pronto para ver como é, basta se cadastrar!</p>
           </div>
         </div>
       </div>
     </div>
-<!-- 4 CARDS ---- FINAL -->
+  <!-- 4 CARDS ---- FINAL -->
 
-
-<!-- CAROUSEL - INICIO -->
-    
-    <div class="container-fluid margem-superior-60">
+<!-- CAROUSEL 6 BANNERS - INICIO -->
+    <div class="container-fluid margem-superior-30" style="width: 90%;">
       <div id="myCarousel" class="carousel slide shadow" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -231,6 +252,15 @@
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="imagens/demobanner3.jpg">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="imagens/demobanner4.jpg">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="imagens/demobanner5.jpg">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="imagens/demobanner6.jpg">
           </div>
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -243,8 +273,15 @@
         </a>
       </div>
     </div>
-    
-<!-- CAROUSEL - FINAL -->
+<!-- CAROUSEL 6 BANNERS - FINAL -->    
+
+
+    <div class="container margem-superior-60">
+      <h1 class="h1responsiva"><strong><i class="fas fa-arrow-right"></i> Tudo pronto para começar?</strong></h1>
+      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="#cadastraragora">CLIQUE AQUI!</a></strong></h4>
+    </div>
+
+
 
 
 <!-- FOOTER PADRÃO PARA PLATAFORMA -- INÍCIO -->
@@ -262,6 +299,7 @@
     </footer>
 <!-- FOOTER PADRÃO PARA PLATAFORMA -- FINAL -->
 
+
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <!-- jQuery JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -275,6 +313,7 @@
     <!-- Boostrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
+
     <!-- MÁSCARA PARA FORMULÁRIOS -->
     <script>
       $(document).ready(function(){
