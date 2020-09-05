@@ -43,7 +43,7 @@
 <!-- PRIMEIRO NAVBAR - INICIO -->
     <nav class="navbar navbar-expand-xl mynavblue border">
       <div class="container">      
-      <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img class="img-fluid" style="max-width: 100%; height: auto;" src="imagens/logoomeumercado90.png"></a>
+      <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img class="img-fluid" src="imagens/logoomeumercado90.png"></a>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
           <i class="fas fa-bars"></i>
         </button>

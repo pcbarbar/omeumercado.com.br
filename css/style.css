@@ -7,6 +7,12 @@ body{
   background-color: #dcdcdc; /* FUNDO CINZA */
 }
 
+/* IMAGENS RESPONSIVAS */
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* FONTES RESPONSIVAS */
 .h1responsiva {font-size: calc(1.5em + 1vw);}
 .h2responsiva {font-size: calc(1em + 1vw);}
