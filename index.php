@@ -40,19 +40,16 @@
   </head>
   <body>
 
-
+<!-- PRIMEIRO NAVBAR - INICIO -->
     <nav class="navbar navbar-expand-xl mynavblue border">
       <div class="container">      
-
       <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img class="img-fluid" style="max-width: 100%; height: auto;" src="imagens/logoomeumercado90.png"></a>
-
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
           <i class="fas fa-bars"></i>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSite">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
             <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-facebook"></i></a></li>
@@ -65,32 +62,6 @@
         </div>
       </div>
     </nav>
-
-
-
-<!-- PRIMEIRO NAVBAR - INICIO 
-    <nav class="navbar navbar-expand-xl mynavblue border">
-      <div class="container">      
-        <a class="navbar-toggler" data-toggle="collapse" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado40.png"></img></a>
-        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSite">
-          <a class="navbar-brand img-fluid" href="index.php" style="border-bottom: 0;"><img src="imagens/logoomeumercado90.png"></a>
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-facebook"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-instagram"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-youtube"></i></a></li>
-            <div class="efeitobtn" style="margin-top: 0px;">
-              <li class="nav-item"><a class="nav-link" href="buscaparceiro.php">Quero fazer compras <i class="fab fa-opencart"></i></a></li>
-            </div>
-          </ul>
-        </div>
-      </div>
-    </nav>  -->
 <!-- PRIMEIRO NAVBAR - FINAL -->
 
 <!-- SEGUNDO NAVBAR - INICIO -->
@@ -101,7 +72,7 @@
             <li class="nav-item"><a class="nav-link" href="#saibamais">Saiba mais</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Vídeos Explicativos</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Exemplo do seu E-Commerce</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Quem somos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Olá Cliente!</a></li>
             <li class="nav-item"><a class="nav-link" href="loginparceiro.php">FAQ</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Precisa de Ajuda?</a></li>
           </ul>
