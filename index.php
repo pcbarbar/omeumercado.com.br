@@ -73,7 +73,7 @@
             <li class="nav-item"><a class="nav-link" href="#">Vídeos Explicativos</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Exemplo do seu E-Commerce</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Olá Cliente!</a></li>
-            <li class="nav-item"><a class="nav-link" href="loginparceiro.php">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Precisa de Ajuda?</a></li>
           </ul>
         </div>

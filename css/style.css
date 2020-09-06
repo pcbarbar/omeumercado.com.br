@@ -21,6 +21,14 @@ body{
 .h5responsiva {font-size: calc(.26em + 1vw);}
 .h6responsiva {font-size: calc(.01em + 1vw);}
 .presponsiva {font-size: calc(.01em + 1vw);}
+/* FONTES RESPONSIVAS FINAS*/
+.h1responsiva-thin {font-size: calc(1.5em + 1vw); font-weight: 300;}
+.h2responsiva-thin {font-size: calc(1em + 1vw); font-weight: 300;}
+.h3responsiva-thin {font-size: calc(.76em + 1vw); font-weight: 300;}
+.h4responsiva-thin {font-size: calc(.51em + 1vw); font-weight: 300;}
+.h5responsiva-thin {font-size: calc(.26em + 1vw); font-weight: 300;}
+.h6responsiva-thin {font-size: calc(.01em + 1vw); font-weight: 300;}
+.presponsiva-thin {font-size: calc(.01em + 1vw); font-weight: 300;}
 
 /* ESPAÇO ENTRE LINHAS SUPERIOR */
 .margem-superior-60 {
