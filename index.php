@@ -18,11 +18,15 @@
     <!-- Carousel CSS -->
     <link href="css/carousel.css" rel="stylesheet">
 
+    <!-- Pulse CSS -->
+    <link href="css/pulse.css" rel="stylesheet">
+
         <!--Ícone da Página-->
     <link rel="shortcut icon" href="imagens/omeumercado.ico">
     
-    <!-- Título -->
+    <!-- Título da Página -->
     <title>OMeuMercado.com.br</title>
+
     <style>
       /* ALTERAÇÃO: .CARD */
     	.cardform {
@@ -35,6 +39,12 @@
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
+      }
+      .fixedpulse {
+        position: fixed;
+        right: 0;
+        bottom: 1;
+        left: 1;
       }
     </style>
   </head>
@@ -74,12 +84,20 @@
             <li class="nav-item"><a class="nav-link" href="#">Exemplo do seu E-Commerce</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Olá Cliente!</a></li>
             <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Precisa de Ajuda?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalnavbar">Precisa de Ajuda?</a></li>
           </ul>
         </div>
       </div>
     </nav>
 <!-- SEGUNDO NAVBAR - FINAL -->
+
+
+  
+    <div class="pulse fixedpulse">
+      <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+    </div>
+  
+  
 
 
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
@@ -141,7 +159,7 @@
 </div>
 <!-- FORMULÁRIO DE CADASTRO - FINAL -->
 
-<!-- MODAL PRECISA DE AJUDA? - INICIO -->
+<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - INICIO -->
     <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -160,10 +178,43 @@
         </div>
       </div>
     </div>
-<!-- MODAL PRECISA DE AJUDA? - FINAL -->
+<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - FINAL -->
+
+
+<!-- MODAL PRECISA DE AJUDA? NAVBAR - INICIO -->
+<div class="modal fade" id="modalnavbar" tabindex="-1" role="dialog" aria-labelledby="ModalNavBar" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalNavBar">Precisa de Ajuda com o Menu?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>- Logotipo OMEUMERCADO, esteja onde estiver clicando no logo você retorna para página principal;</p>
+        <p>- Sobre, é a idéia geral sobre seu OMeuMercado, algumas explicações, história, missão e valores;</p>
+        <p>- Área do Parceiro, é uma área exclusiva para o Parceiro cadastrado fazer a administração do seu MarketPlace, também disponível no próprio local;</p>
+        <p>- Contato, é onde você pode enviar um formuálio com dúvidas, sugestões e também onde encontrar nossos telefones e emails para você poder falar conosco;</p>
+        <p>- Ícones de Facebook, Instagram e Youtube são nossos canais sociais, entre lá e siga-nos, deixe mensagens e compartilhe nossas publicações;</>
+        <p>- Botão Quero fazer compras, é onde o cliente amigo pode procurar um estabelecimento credenciado (Parceiro) para fazer compras;</p>
+        <p>- Saiba mais, são explicações, funcionalidades, ...</p>
+        <p>- Vídeos Explicativos, decidimos incorporar vídeos explicativos pois são mais elucidativos, práticos, e de forma geral rápidos para o entendimento de como funciona a Plataforma OMeuMercado;</p>
+        <p>- Exemplo do seu E-Commerce, entre e saiba com este exemplo como ficaria se negócio on-line, não se preocupe ele será customizado para atender suas necessidades;</p>
+        <p>- FAQ, são perguntas frequentes já respondidas, talvez a resposta para sua dúvida já esteja aqui;</p>
+        <p>- Precisa de Ajuda?, este link você encontrará em vários lugares no website e poderá solucionar sua dúvida, como este aqui!</p>
+        <h6>Obrigado por estar conosco!</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL PRECISA DE AJUDA? NAVBAR - FINAL -->
 
    
-<!-- MPARA USAR OS ÍCONES -->    
+<!-- PARA USAR OS ÍCONES -->    
     <div class="invisible">
       <a href="https://icons8.com/icon/44027/money-bag">Money Bag icon by Icons8</a>
       <a href="https://icons8.com/icon/77111/online-store">Online Store icon by Icons8</a>
