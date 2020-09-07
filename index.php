@@ -18,10 +18,7 @@
     <!-- Carousel CSS -->
     <link href="css/carousel.css" rel="stylesheet">
 
-    <!-- Pulse CSS -->
-    <link href="css/pulse.css" rel="stylesheet">
-
-        <!--Ícone da Página-->
+    <!--Ícone da Página-->
     <link rel="shortcut icon" href="imagens/omeumercado.ico">
     
     <!-- Título da Página -->
@@ -61,7 +58,7 @@
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
             <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-facebook"></i></a></li>
             <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-instagram"></i></a></li>
             <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-youtube"></i></a></li>
@@ -75,12 +72,12 @@
 <!-- PRIMEIRO NAVBAR - FINAL -->
 
 <!-- SEGUNDO NAVBAR - INICIO -->
-    <nav class="navbar navbar-expand-xl mynavblack" style="margin-top: 1px";>
+    <nav class="navbar navbar-expand-xl mynavblack">
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarSite">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="#saibamais">Saiba mais</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Vídeos Explicativos</a></li>
+            <li class="nav-item"><a class="nav-link" href="saibamais.html">Saiba mais</a></li>
+            <li class="nav-item"><a class="nav-link" href="vdexplica.html">Vídeos Explicativos</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Exemplo do seu E-Commerce</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Olá Cliente!</a></li>
             <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
@@ -90,14 +87,6 @@
       </div>
     </nav>
 <!-- SEGUNDO NAVBAR - FINAL -->
-
-
-  
-    <div class="pulse fixedpulse">
-      <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
-    </div>
-  
-  
 
 
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
@@ -143,7 +132,7 @@
               </div>
               <div>
                 <a href="#" data-toggle="modal" data-target="#modalExemplo"><h6 class="text-right mb-3">Precisa de ajuda?</h6></a>
-                <h1 class="text-left termos-contrato text-black mb-1">Ao continuar, eu concordo com os <a href="#"><u>Termos de Uso</u></a> do OMEUMERCADO e confirmo que li a <a href="#"><u>Política de Privacidade</u></a>.</h1>
+                <h1 class="text-left termos-contrato text-black mb-1">Ao prosseguir, eu concordo com os <a href="#"><u>Termos de Uso</u></a> do OMEUMERCADO e confirmo que li a <a href="#"><u>Política de Privacidade</u></a>.</h1>
                 <h1 class="text-left termos-contrato text-black mb-0">Eu também concordo que o OMEUMERCADO e seus representantes podem entrar em contato comigo por whatsapp, e-mail, telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que eu forneci, inclusive para fins de marketing.</h1>
               </div>
 
@@ -298,11 +287,12 @@
 <!-- CAROUSEL 6 BANNERS - FINAL -->    
 
 
+<!-- TEXTO PARA SE CADASTRAR ---- INÍCIO -->
     <div class="container margem-superior-60">
       <h1 class="h1responsiva"><strong><i class="fas fa-arrow-right"></i> Tudo pronto para começar?</strong></h1>
       <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="#cadastraragora">CLIQUE AQUI!</a></strong></h4>
     </div>
-
+<!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
 
 
@@ -365,6 +355,4 @@
       }
     </script>
   </body>
-
-
 </html>
