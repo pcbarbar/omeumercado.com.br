@@ -118,10 +118,10 @@
 <!-- PROCEDIMENTO CENTRAL ---- INÍCIO -->
       <div class="container border mt-4 shadow-lg rounded" style="background-color: #ededed;">
         <div class="row">
-          <div class="col">
-            <img src="imagens/fundobuscaparceiro.jpg" class="img-fluid align-middle" alt="Imagem responsiva">
+          <div class="col-xl-6 border">
+            <img src="imagens/mapinha.jpg" class="img-fluid mx-auto d-block">
           </div>
-          <div class="col">
+          <div class="col-xl-6">
           <form class="login-form text-center">
             <h3 class="text-center">Onde você está?</h3>
             <h6 class="text-center mb-3">Dessa forma você terá acesso aos estabelecimentos mais próximos em sua região.</h6>

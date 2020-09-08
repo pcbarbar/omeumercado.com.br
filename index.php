@@ -89,6 +89,61 @@
 <!-- SEGUNDO NAVBAR - FINAL -->
 
 
+<!-- MODAL PRECISA DE AJUDA? NAVBAR - INICIO -->
+      <div class="modal fade" id="modalnavbar" tabindex="-1" role="dialog" aria-labelledby="ModalNavBar" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalNavBar">Precisa de Ajuda com o Menu?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>- Logotipo OMEUMERCADO, esteja onde estiver clicando no logo você retorna para página principal;</p>
+            <p>- Sobre, é a idéia geral sobre seu OMeuMercado, algumas explicações, história, missão e valores;</p>
+            <p>- Área do Parceiro, é uma área exclusiva para o Parceiro cadastrado fazer a administração do seu MarketPlace, também disponível no próprio local;</p>
+            <p>- Contato, é onde você pode enviar um formuálio com dúvidas, sugestões e também onde encontrar nossos telefones e emails para você poder falar conosco;</p>
+            <p>- Ícones de Facebook, Instagram e Youtube são nossos canais sociais, entre lá e siga-nos, deixe mensagens e compartilhe nossas publicações;</>
+            <p>- Botão Quero fazer compras, é onde o cliente amigo pode procurar um estabelecimento credenciado (Parceiro) para fazer compras;</p>
+            <p>- Saiba mais, são explicações, funcionalidades, ...</p>
+            <p>- Vídeos Explicativos, decidimos incorporar vídeos explicativos pois são mais elucidativos, práticos, e de forma geral rápidos para o entendimento de como funciona a Plataforma OMeuMercado;</p>
+            <p>- Exemplo do seu E-Commerce, entre e saiba com este exemplo como ficaria se negócio on-line, não se preocupe ele será customizado para atender suas necessidades;</p>
+            <p>- FAQ, são perguntas frequentes já respondidas, talvez a resposta para sua dúvida já esteja aqui;</p>
+            <p>- Precisa de Ajuda?, este link você encontrará em vários lugares no website e poderá solucionar sua dúvida, como este aqui!</p>
+            <h6>Obrigado por estar conosco!</h6>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- MODAL PRECISA DE AJUDA? NAVBAR - FINAL -->
+
+
+<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - INICIO -->
+      <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Olá Parceiro! Olá Cliente Amigo! Para iniciar o cadastro basta preencher os campos corretamente: seu E-mail, nome completo, número do CPF, ddd e celular. Caso tenha um Cupom de Indicação, esse é o momento de usar, para mais informações basta consultar o FAQ disponível no menu. Após este pré-cadastro você receberá nosso E-mail de confirmação. Espero ter ajudado e seja bem-vindo ao OMeuMercado!!!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Entendi!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - FINAL -->
+
+
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
 <div class="container-fluid border shadow mb-5 bg-white rounded" style="width: 95%; margin-top: 30px;" id="cadastraragora">
     <div class="container-fluid margem-superior-30" style="margin-bottom: 30px;">
@@ -147,60 +202,6 @@
   </div>
 </div>
 <!-- FORMULÁRIO DE CADASTRO - FINAL -->
-
-<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - INICIO -->
-    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda?</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            Olá Parceiro! Olá Cliente Amigo! Para iniciar o cadastro basta preencher os campos corretamente: seu E-mail, nome completo, número do CPF, ddd e celular. Caso tenha um Cupom de Indicação, esse é o momento de usar, para mais informações basta consultar o FAQ disponível no menu. Após este pré-cadastro você receberá nosso E-mail de confirmação. Espero ter ajudado e seja bem-vindo ao OMeuMercado!!!
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Entendi!</button>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - FINAL -->
-
-
-<!-- MODAL PRECISA DE AJUDA? NAVBAR - INICIO -->
-    <div class="modal fade" id="modalnavbar" tabindex="-1" role="dialog" aria-labelledby="ModalNavBar" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalNavBar">Precisa de Ajuda com o Menu?</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>- Logotipo OMEUMERCADO, esteja onde estiver clicando no logo você retorna para página principal;</p>
-            <p>- Sobre, é a idéia geral sobre seu OMeuMercado, algumas explicações, história, missão e valores;</p>
-            <p>- Área do Parceiro, é uma área exclusiva para o Parceiro cadastrado fazer a administração do seu MarketPlace, também disponível no próprio local;</p>
-            <p>- Contato, é onde você pode enviar um formuálio com dúvidas, sugestões e também onde encontrar nossos telefones e emails para você poder falar conosco;</p>
-            <p>- Ícones de Facebook, Instagram e Youtube são nossos canais sociais, entre lá e siga-nos, deixe mensagens e compartilhe nossas publicações;</>
-            <p>- Botão Quero fazer compras, é onde o cliente amigo pode procurar um estabelecimento credenciado (Parceiro) para fazer compras;</p>
-            <p>- Saiba mais, são explicações, funcionalidades, ...</p>
-            <p>- Vídeos Explicativos, decidimos incorporar vídeos explicativos pois são mais elucidativos, práticos, e de forma geral rápidos para o entendimento de como funciona a Plataforma OMeuMercado;</p>
-            <p>- Exemplo do seu E-Commerce, entre e saiba com este exemplo como ficaria se negócio on-line, não se preocupe ele será customizado para atender suas necessidades;</p>
-            <p>- FAQ, são perguntas frequentes já respondidas, talvez a resposta para sua dúvida já esteja aqui;</p>
-            <p>- Precisa de Ajuda?, este link você encontrará em vários lugares no website e poderá solucionar sua dúvida, como este aqui!</p>
-            <h6>Obrigado por estar conosco!</h6>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- MODAL PRECISA DE AJUDA? NAVBAR - FINAL -->
 
    
 <!-- PARA USAR OS ÍCONES -->    
