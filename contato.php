@@ -56,7 +56,7 @@
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="loginparceiro.php"><i class="fas fa-lock"></i> Área do Parceiro</a></li>
-            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.php">Contato</a></li>
             <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-facebook"></i></a></li>
             <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-instagram"></i></a></li>
             <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><i class="fab fa-youtube"></i></a></li>
@@ -75,7 +75,7 @@
         <div class="collapse navbar-collapse" id="navbarSite">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link" href="saibamais.html">Saiba mais</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Vídeos Explicativos</a></li>
+            <li class="nav-item"><a class="nav-link" href="vdexplica.html">Vídeos Explicativos</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Exemplo do seu E-Commerce</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Olá Cliente!</a></li>
             <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
