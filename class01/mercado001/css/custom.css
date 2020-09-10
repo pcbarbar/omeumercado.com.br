@@ -52,49 +52,79 @@ body{
    font-size: 11px;
 }
 
-
-/* PRIMEIRO NAVBAR BLUE PADRÃO DA PLATAFORMA MYNAVBLUE */
+/*//////////////////////////////////////////////*/
+/* NAVBARs */
+.navbar-brand img {
+  height: 90px;
+  max-width: auto;
+}
+.active a {
+  border-bottom: 3px solid #ffffff;
+}
 .nav-link {
     color: #ffffff;
 }
 .nav-link:hover, .nav-link:focus {
   color: #ffffff;
 }
-.mynavblue {
-    background-color: #1d2c57;
+
+
+/* NAVBAR 1 */
+.mynav1 {
+    background-color: #000033;
 }
-.mynavblue a {
+.mynav1 a {
     margin-right: 30px;
-    /*margin-left: 50px;*/
     border-bottom: 3px solid transparent;
 }
-.mynavblue a:hover {
+.mynav1 a:hover {
     border-bottom: 3px solid #ffffff;
 }
-.active a {
-    border-bottom: 3px solid #ffffff;
+/* NAVBAR 2 */
+.mynav2 {
+  background-color: #000000;
+  font-size: 14px;
+  padding-bottom: 3px;
+  padding-top: 3px;
 }
+.mynav2 a {
+  margin-right: 30px;
+  margin-left: 20px;
+  border-bottom: 2px solid transparent;
+}
+.mynav2 a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+.navdrop2 {
+  background-color: #000;
+ }
+ .navitem2 {
+   color: #fff;
+   font-family: 'Poppins', sans-serif;
+ }
 
-
-/* SEGUNDO NAVBAR BLUE PADRÃO DA PLATAFORMA MYNAVBLACK*/
-.mynavblack {
-    background-color: #000000;
-    font-size: 14px;
+/* NAVBAR 3 */
+.mynav3 {
+  background-color: #191647;
+  font-size: 14px;
+  padding-bottom: 3px;
+  padding-top: 3px;
 }
-.mynavblack a {
-    margin-right: 30px;
-    margin-left: 20px;
-    border-bottom: 2px solid transparent;
+.mynav3 a {
+  margin-right: 30px;
+  margin-left: 25px;
+  border-bottom: 2px solid transparent;
 }
-.mynavblack a:hover {
-    border-bottom: 1px solid #ffffff;
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #ffffff;
-    border-top: 1px solid #ffffff;
+.mynav3 a:hover {
+  border-bottom: 2px solid #ffffff;
 }
-.active a {
-    border-bottom: 3px solid #ffffff;
-}
+.navdrop3 {
+  background-color: #191647;
+ }
+ .navitem3 {
+   color: #fff;
+ }
+/*//////////////////////////////////////////////*/
 
 
 /* OPÇÕES DE FORMULÁRIO PADRÃO --- INICIO */

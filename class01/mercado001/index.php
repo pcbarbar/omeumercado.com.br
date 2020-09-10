@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <!-- Custom do Parceiro -->
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/9c8d73ada2.js" crossorigin="anonymous"></script>
@@ -18,36 +18,27 @@
     <!-- Carousel CSS -->
     <link href="/css/carousel.css" rel="stylesheet">
 
+    <!--Ícone da Página-->
+    <link rel="shortcut icon" href="/imagens/omeumercado.ico">
+
     <!-- Título -->
     <title>OMeuMercado.com.br</title>
     <style>
-      body{
-        background-color: #dcdcdc;
-      }
-      .form-control:focus{
-        border-color:#191647;
-        box-shadow: 0 0 0 0.1rem rgba(25,22,71,.25);
-      }
-      .nav-link {
-        color: #ffffff;
-      }
     </style>
   </head>
   <body>
     
+
 <!-- PRIMEIRO NAVBAR - INICIO -->
-    
-    <nav class="navbar navbar-expand-lg pt-0 py-0" style="background-color: #000033">
-      <div class="container">
-        <a class="navbar-brand" href="index.php"><img src="imagens/logotipoparceiro.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-          <i class="fas fa-bars"></i>
-        </button>
+    <nav class="navbar navbar-expand-xl border mynav1">
+      <div class="container">      
+      <a class="navbar-brand" href="index.php" style="border-bottom: 0;"><img src="imagens/logotipoparceiro.png"></a>
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSite"><i class="fas fa-bars"></i></button>
         <div class="collapse navbar-collapse" id="navbarSite">
           <ul class="navbar-nav mr-auto">
-            <form class="form-inline my-md-0 ml-1 mr-3">
-              <input class="form-control rounded-pill" type="text" placeholder="Buscar produtos...">
-              <button class="btn" type="submit"><a href="#" style="color: #ffffff;"><i class="fas fa-search"></i></a></button>
+            <form class="form-inline ml-1">
+              <input class="form-control rounded-pill"  style="width: 385px;" type="text" placeholder="Buscar produtos...">
+              <button class="btn" type="submit"><a href="#" style="color: #ffffff; border-bottom: 0;"><i class="fas fa-search"></i></a></button>
             </form>
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -56,51 +47,93 @@
             <li class="nav-item"><a class="nav-link" href="#">Minha Lista</a></li>
           </ul>
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#"><h2><i class="fas fa-shopping-cart"></i></h2></a></li>
-          </ul>
-
-
-
+            <li class="nav-item"><a class="nav-link" href="#" style="border-bottom: 0;"><h2><i class="fas fa-shopping-cart"></i></h2></a></li>
           </ul>
         </div>
       </div>
     </nav>
 <!-- PRIMEIRO NAVBAR - FINAL -->
 
+
 <!-- SEGUNDO NAVBAR - INICIO -->
-    <nav class="navbar navbar-expand-lg pt-0 py-0" style="background-color: #191647; font-size: 14px;">
-      <div class="container">
+<nav class="navbar navbar-expand-xl mynav2">
+      <div class="container mr-0">
         <div class="collapse navbar-collapse" id="navbarSite">
-          <ul class="navbar-nav mr-center">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Categorias</a>
-              <div class="dropdown-menu" style="font-size: 14px;">
-                <a class="dropdown-item" href="#">Alimentos</a>
-                <a class="dropdown-item" href="#">Bebidas</a>
-                <a class="dropdown-item" href="#">Congelados</a>
-                <a class="dropdown-item" href="#">Açougue</a>
-              </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Produtos em Oferta</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Ver Produtos da Minha Lista</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Atendimento ao Cliente</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Só mais uma coisa</a></li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#">Contato <i class="fas fa-phone"></i></a></li>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Olá Cliente!</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Social</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#"><i class="fab fa-facebook"> Facebook</i></a>
-                <a class="dropdown-item" href="#"><i class="fab fa-instagram"> Instagram</i></a>
-                <a class="dropdown-item" href="#"><i class="fab fa-youtube"> Youtube</i></a>
+              <div class="dropdown-menu navdrop2">
+                <a class="dropdown-item navitem2" href="#"><i class="fab fa-facebook"> Facebook</i></a>
+                <a class="dropdown-item navitem2" href="#"><i class="fab fa-instagram"> Instagram</i></a>
+                <a class="dropdown-item navitem2" href="#"><i class="fab fa-youtube"> Youtube</i></a>
               </div>
             </li>
+            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalnavbar">Precisa de Ajuda?</a></li>
           </ul>
         </div>
       </div>
     </nav>
 <!-- SEGUNDO NAVBAR - FINAL -->
+
+
+
+<!-- 
+  Mínimo 3 níveis (bom para compras por impulso, ficar mostrando os produtos relacionados)
+  Departamento; Categoria; Subcategoria; Segmento e subsegmento
+  ex.
+  Alimento - Biscoito - Doce - Recheado - Chocolate
+
+-->
+
+<!-- TERCEIRO NAVBAR - INICIO -->
+    <nav class="navbar navbar-expand-xl mynav3">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Categorias</a>
+              <div class="dropdown-menu navdrop3">
+                <a class="dropdown-item navitem3" href="#">Alimentos</a>
+                <a class="dropdown-item navitem3" href="#">Hortifruti</a>
+                <a class="dropdown-item navitem3" href="#">Adega e Bebidas</a>
+                <a class="dropdown-item navitem3" href="#">Congelados</a>
+                <a class="dropdown-item navitem3" href="#">Frios e Laticínios</a>
+                <a class="dropdown-item navitem3" href="#">Carnes</a>
+                <a class="dropdown-item navitem3" href="#">Padaria</a>
+                <a class="dropdown-item navitem3" href="#">Higiene e Perfumaria</a>
+                <a class="dropdown-item navitem3" href="#">Material de Limpeza</a>
+                <a class="dropdown-item navitem3" href="#">PetShop</a>
+
+                <a class="nav-item dropdown">
+              <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">Outra coisa</a>
+              <div class="dropdown-menu navdrop3">
+
+                <a class="dropdown-item navitem3" href="#">Utilidades</a>
+              </div>
+              </a>
+
+
+
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Produtos em Oferta</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><em>Minhas Receitas!</em></a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Atendimento ao Cliente</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Só mais uma coisa</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- TERCEIRO NAVBAR - FINAL -->
+
+
+
+
+
+
 
 <!-- CAROUSEL - INICIO -->
   
@@ -133,9 +166,13 @@
 <!-- CAROUSEL - FINAL -->
   
 <p class="margem-superior-60">Colocar restante da página inicial</p>
+<p class="margem-superior-60">Colocar restante da página inicial</p>
+<p class="margem-superior-60">Colocar restante da página inicial</p>
+<p class="margem-superior-60">Colocar restante da página inicial</p>
+<p class="margem-superior-60">Colocar restante da página inicial</p>
 
 <!-- FOOTER PADRÃO PARA PLATAFORMA -->
-    <footer class="py-2 fixed-bottom margem-superior-60" style="background-color: #181174;">
+    <footer class="py-2 margem-superior-60" style="background-color: #000033;">
       <div class="container">
         <div class="row" style="margin-top: 10px;">
           <div class="col">
