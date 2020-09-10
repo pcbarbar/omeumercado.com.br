@@ -31,7 +31,7 @@
       </div>
 
       <div class="container border margem-superior-30">
-        <a href="class01/mercado001/index.php"><img src="imagens/templistaparceiros.jpg" class="img-fluid align-middle" alt="Imagem responsiva"></a>
+        <a href="parceiro/index.php"><img src="imagens/templistaparceiros.jpg" class="img-fluid align-middle" alt="Imagem responsiva"></a>
       </div>
 <!-- RETORNO DA BUSCA - INÍCIO -->
 
