@@ -1,25 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-
-    <!-- Place your kit's code here -->
-    <script src="https://kit.fontawesome.com/9c8d73ada2.js" crossorigin="anonymous"></script>
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--Ícone da Página-->
-    <link rel="shortcut icon" href="imagens/omeumercado.ico">
     
-    <!-- Título -->
-    <title>OMeuMercado.com.br</title>
+    <?php include 'header.html'; ?>
 
     <!-- Carousel CSS -->
     <link href="css/carousel.css" rel="stylesheet">
@@ -90,7 +73,7 @@
 
           <!-- OBS: CPF NÃO VALIDADO!!!!!!!!!!!! -->
 
-          <form action="validaprecadastro.php" method="post" class="login-form text-center cardform" onsubmit="limparMascara()">
+          <form action="validaprecadastro.php" method="post" class="login-form text-center cardform">
               <h4 class="font-weight-light mb-4">Cadastre-se já!</h4>
               <div class="form-group mb-1">
                 <input type="email" class="form-control rounded-pill" id="email" name="email" minlength="6" maxlength="100" placeholder="E-mail" required>
@@ -222,65 +205,7 @@
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
+    <?php include 'footer.html'; ?>
 
-
-<!-- FOOTER PADRÃO PARA PLATAFORMA -- INÍCIO -->
-    <footer class="py-2 margem-superior-60" style="background-color: #1d2c57;">
-      <div class="container">
-        <div class="row" style="margin-top: 10px;">
-          <div class="col">
-            <h6 class="text-left"><a href="index.php" style="color: #ffffff; text-decoration: none;">OMEUMERCADO.COM.BR</a></h6>
-          </div>
-          <div class="col">
-            <p class="text-right" style="color: #ffffff; font-size: 12px;">Copyright © 2020 omeumercado.com.br</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-<!-- FOOTER PADRÃO PARA PLATAFORMA -- FINAL -->
-
-
-<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <!-- jQuery JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    
-    <!-- Máscara para formulário JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous"></script>
-    
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
-    <!-- Boostrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-
-<!-- MÁSCARA PARA FORMULÁRIOS -->
-    <script>
-      $(document).ready(function(){
-      //Telefone
-      //$("#telefone").mask("(99) 99999-9999");
-      //CEP
-      //$("#cep").mask("99999-999");
-      //CPF
-      $("#cpf").mask("999.999.999-99");
-      $("#celular").mask("90000-0000");
-      //$("#senha").mask("000000");
-      $("#cupomindica").mask("AAAAAAAA");
-      $("#ddd").mask("00");
-      //CNPJ
-      //$("#cnpj").mask("99.999.999/9999-99");
-      //Data
-      //$("#data").mask("99/99/9999");
-      //Dinheiro
-      //$('#dinheiro1').mask('000.000.000.000.000,00' , { reverse : true});
-      //$('#dinheiro2').mask("#.##0,00" , { reverse:true});
-      });
-    </script>
-    <script>
-      function limparMascara(){
-        $('#cpf').unmask();
-        $('#celular').unmask();
-      }
-    </script>
   </body>
 </html>
