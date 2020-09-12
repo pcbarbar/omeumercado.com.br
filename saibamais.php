@@ -7,7 +7,7 @@
     <style>
       /* EFEITO PARALLAX - SAIBAMAIS */
       .parallaximg {
-        background-image: url("imagens/bg_saibamais.jpg");
+        background-image: url("imagens/bg_saibamais_temp.jpg");
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -32,6 +32,7 @@
         <div class="container pb-5">
           <div class="row">
             <div class="col-xs-12">
+              <h1 class="text-center h1responsiva text-danger">COLOCAR OS VÍDEOS EXPLICATIVOS AQUI TAMBÉM VDEXPLICA.PHP</h1>
               <h1 class="text-center h1responsiva">Olá Parceiro, você está no Saiba mais!</h1>
               <p class="text-center">Veja agora as funcionalidades de nossa plataforma...</p>
             </div>

@@ -8,16 +8,9 @@
     <link href="css/carousel.css" rel="stylesheet">
 
     <style>
-      /* IMAGEM DE FUNDO PARA O CONTAINER PRINCIPAL*/
-      .big-banner {
-        background-image: url("imagens/fundo_index.jpg");
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: 100%;
-      }
       /* EFEITO PARALLAX - INDEX */
       .parallaximg {
-        background-image: url("imagens/bg_saibamais.jpg");
+        background-image: url("imagens/bg_index.jpg");
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
