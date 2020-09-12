@@ -2,20 +2,20 @@
 <html lang="pt-br">
 <head>
 
-	<?php include 'header.html'; ?>
+	<?php include 'templates/header.html'; ?>
 	<link rel="stylesheet" href="css/entradas.css">
 
 </head>
 <body>
 
-	<?php include 'menu.html'; ?>
+	<?php include 'templates/menu.html'; ?>
 
 <!-- MODAL PRECISA DE AJUDA? CLIENTE - INICIO -->
 	<div class="modal fade" id="modalcliente" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda para se Cadastrar?</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -37,7 +37,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda para se Cadastrar?</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -58,7 +58,7 @@
 	<div class="container register rounded shadow mt-3">
 		<div class="row">
 			<div class="col-md-3 register-left">
-				<img src="imagens/logoomeumercado90.png" alt=""/>
+				<img src="imagens/logoomeumercado.png" alt=""/>
 				<h3>Bem-vindo</h3>
 				<p>Você está a 1 minuto de começar a economizar!</p>
 				<h6 style="font-weight: 300;">Já tem conta?</h6>
@@ -206,7 +206,7 @@
 		</div>
 	</div>
 
-	<?php include 'footer.html'; ?>
+	<?php include 'templates/footer.html'; ?>
 
 </body>
 </html>

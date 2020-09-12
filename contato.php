@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <!-- Pulse CSS -->
     <link href="css/pulse.css" rel="stylesheet">
@@ -39,7 +39,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
 <!-- BOTÃO PULSE - INÍCIO -->
     <div class="pulse fixedpulse">
@@ -137,7 +137,7 @@
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

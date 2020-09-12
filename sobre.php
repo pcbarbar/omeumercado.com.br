@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
       /* IMAGEM DE FUNDO PARA O FAQ*/
@@ -23,7 +23,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
     <div class="container-fluid rounded shadow pr-5 pl-5 bg-sobre" style="width: 95%; margin-top: 20px;">
       <div class="conatiner bg-white">
@@ -63,7 +63,7 @@
       </div>
     </div>
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

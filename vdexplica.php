@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
       /* IMAGEM DE FUNDO PARA O CONTAINER PRINCIPAL*/
@@ -25,7 +25,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
 <!-- VÍDEOS - INÍCIO -->
     <div class="container-fluid pt-4 mt-4 pb-4 big-banner shadow" style="width: 95%;">
@@ -92,7 +92,7 @@
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

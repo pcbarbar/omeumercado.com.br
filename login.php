@@ -2,26 +2,26 @@
 <html lang="pt-br">
 <head>
 
-	<?php include 'header.html'; ?>
+	<?php include 'templates/header.html'; ?>
 	<link rel="stylesheet" href="css/entradas.css">
 
 </head>
 <body>
 
-	<?php include 'menu.html'; ?>
+	<?php include 'templates/menu.html'; ?>
 
 <!-- MODAL PRECISA DE AJUDA? LOGIN - INICIO -->
 	<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda para fazer Login?</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            Olá Parceiro! Para iniciar o acesso a sua área exclusiva de administração é necessário fazer o login. Entre por meio de sua conta do Twitter ou Facebook ou então digite seu E-mail ou CPF cadastrado, digite sua senha e clique em "Entrar". Caso ainda não tenha cadastro clique em "Criar Conta" ou é só ir para página inicial clicando no logotipo do OMeuMercado no topo da página. Espero ter ajudado!!!
+            Olá Parceiro! Para iniciar o acesso a sua área exclusiva de administração é necessário fazer o login. Entre por meio de sua conta do Twitter ou Facebook ou então digite seu E-mail ou CPF cadastrado, digite sua senha e clique no botão "Entrar". Caso ainda não tenha cadastro clique no botão "Criar Conta" ou acesse a página inicial clicando no Logotipo do OMeuMercado no topo desta página. Espero ter ajudado!!!
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-info" data-dismiss="modal">Entendi!</button>
@@ -32,6 +32,7 @@
 <!-- MODAL PRECISA DE AJUDA? LOGIN - FINAL -->
 
 
+<!-- LOGIN - INÍCIO -->
 	<div class="container register rounded shadow mt-3">
 		<div class="row">
 			<div class="col-md-4 register-left">
@@ -39,7 +40,7 @@
 				<h3>Bem-vindo</h3>
 				<p>Parceiro, você está acessando sua área exclusiva de administração</p>
 				<h6 style="font-weight: 300;">Ainda não tem conta?</h6>
-				<a class="text-dark" style="text-decoration: none;" href="cadastrar.php"><button class="btn btn-light btn-block rounded-pill">Criar Conta</button></a><br>
+				<a class="text-dark" style="text-decoration: none;" href="precadastro.php"><button class="btn btn-light btn-block rounded-pill">Criar Conta</button></a><br>
 			</div>
 			<div class="col-md-8 register-right">
 				<div class="tab-content pt-0" id="myTabContent">
@@ -80,9 +81,9 @@
 			</div>
 		</div>
 	</div>
+<!-- LOGIN - FINAL -->
 
-
-<?php include 'footer.html'; ?>
+	<?php include 'templates/footer.html'; ?>
 
 </body>
 </html>

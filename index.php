@@ -2,17 +2,12 @@
 <html lang="pt-br">
   <head>
     
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <!-- Carousel CSS -->
     <link href="css/carousel.css" rel="stylesheet">
 
     <style>
-      /* ALTERAÇÃO: .CARD */
-    	.cardform {
-    		background-color: #ffcc00;
-    		box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.7);
-    	}
       /* IMAGEM DE FUNDO PARA O CONTAINER PRINCIPAL*/
       .big-banner {
         background-image: url("imagens/fundo_index.jpg");
@@ -20,80 +15,37 @@
         background-position: bottom;
         background-size: 100%;
       }
-      .fixedpulse {
-        position: fixed;
-        right: 0;
-        bottom: 1;
-        left: 1;
+      /* EFEITO PARALLAX - INDEX */
+      .parallaximg {
+        background-image: url("imagens/bg_saibamais.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+        padding-top: 250px;
+        padding-bottom: 250;
       }
     </style>
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
-
-
-<!-- FORMULÁRIO DE CADASTRO - INICIO -->
-<div class="container-fluid border shadow mb-5 bg-white rounded" style="width: 95%; margin-top: 30px;" id="cadastraragora">
-    <div class="container-fluid margem-superior-30" style="margin-bottom: 30px;">
-      <div class="container-fluid big-banner">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col-6">
-          <div class="row mt-4">
-          <h1 class="h1responsiva">Comece a vender on-line agora <i class="fas fa-arrow-right"></i></h1></p>
-          </div>
+<!-- EFEITO PARALLAX NA IMAGEM DE BACKGROUND - INÍCIO -->
+    <section class="parallaximg">
+        <div class="container pb-5">
           <div class="row">
-            <h4 class="h4responsiva">Seja nosso parceiro sem gastar nada</h4>
+            <div class="col-xs-12">
+              <h1 class="text-center h1responsiva">Seja muito bem vindo! Você está no OMeuMercado</h1>
+              <h5 class="text-center h5responsiva-thin">A maior plataforma de vendas gratuita para Mercados, Armazéns, Frutarias, Padarias, Petshops...</h5>
+            </div>
           </div>
         </div>
-        <div class="col"></div>
-        <div class="col">
+      </section>
+<!-- EFEITO PARALLAX NA IMAGEM DE BACKGROUND - FINAL -->
 
-          <!-- OBS: CPF NÃO VALIDADO!!!!!!!!!!!! -->
 
-          <form action="validaprecadastro.php" method="post" class="login-form text-center cardform">
-              <h4 class="font-weight-light mb-4">Cadastre-se já!</h4>
-              <div class="form-group mb-1">
-                <input type="email" class="form-control rounded-pill" id="email" name="email" minlength="6" maxlength="100" placeholder="E-mail" required>
-              </div>
-              <div class="form-group mb-1">
-                <input type="text" class="form-control rounded-pill" id="nome" name="nome" minlength="2" maxlength="100" placeholder="Nome Completo" required>
-              </div>
-              <div class="form-group mb-1">
-                <input type="text" class="form-control rounded-pill cpf" id="cpf" name="cpf" minlength="14" maxlength="14" placeholder="CPF" required>
-              </div>
-              <div class="form-row">
-                <div class="form-group mb-1 col-md-4">
-                  <input type="int" class="form-control rounded-pill" id="ddd" name="ddd" minlength="2" maxlength="2" placeholder="DDD" required>
-                </div>
-                <div class="form-group mb-1 col-md-8">
-                  <input type="text" class="form-control rounded-pill" id="celular" name="celular" minlength="10" maxlength="10" placeholder="Celular" required>
-                </div>
-              </div>
-              <div class="form-group mb-1">
-                <input type="text" class="form-control rounded-pill" id="cupomindica" name="cupomindica" minlength="8" maxlength="8" placeholder="Cupom de indicação (opcional)">
-              </div>
-              <div>
-                <a href="#" data-toggle="modal" data-target="#modalExemplo"><h6 class="text-right mb-3">Precisa de ajuda?</h6></a>
-                <h1 class="text-left termos-contrato text-black mb-1">Ao prosseguir, eu concordo com os <a href="#"><u>Termos de Uso</u></a> do OMEUMERCADO e confirmo que li a <a href="#"><u>Política de Privacidade</u></a>.</h1>
-                <h1 class="text-left termos-contrato text-black mb-0">Eu também concordo que o OMEUMERCADO e seus representantes podem entrar em contato comigo por whatsapp, e-mail, telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que eu forneci, inclusive para fins de marketing.</h1>
-              </div>
-
-              <button type="submit" class="btn mt-3 rounded-pill btn-lg btn-custom btn-block">PROSSEGUIR <i class="far fa-arrow-alt-circle-right"></i></button>
-              <p class="mt-3 font-weight-normal">Já tem conta? <a href="loginparceiro.php"><strong>Entrar</strong></a></p>
-              </form>
-          </div>
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
-    </div>
-  </div>
-</div>
-<!-- FORMULÁRIO DE CADASTRO - FINAL -->
-
-   
 <!-- PARA USAR OS ÍCONES -->    
     <div class="invisible">
       <a href="https://icons8.com/icon/44027/money-bag">Money Bag icon by Icons8</a>
@@ -101,7 +53,6 @@
       <a href="https://icons8.com/icon/114458/business-building">Business Building icon by Icons8</a>
       <a href="https://icons8.com/icon/46086/move-stock">Move Stock icon by Icons8</a>
     </div>
-
 
 <!-- 4 CARDS ---- INÍCIO -->
     <div class="container-fluid" style="width: 98%;" id="saibamais">
@@ -185,7 +136,7 @@
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

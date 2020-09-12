@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
       a:hover {
@@ -19,7 +19,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
 <!-- PROCEDIMENTO CENTRAL ---- INÍCIO -->
     <div class="container border mt-4 shadow-lg rounded" style="background-color: #ededed;">
@@ -69,7 +69,7 @@
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

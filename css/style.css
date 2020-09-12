@@ -79,7 +79,7 @@ body{
 /* SEGUNDO NAVBAR BLUE PADRÃO DA PLATAFORMA MYNAVBLACK*/
 .mynavblack {
     background-color: #000000;
-    font-size: 14px;
+    /*font-size: 14px;*/
 }
 .mynavblack a {
     margin-right: 30px;
@@ -91,6 +91,12 @@ body{
     border-left: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
     border-top: 1px solid #ffffff;
+}
+.mynavblackoff a:hover {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 .active a {
     border-bottom: 3px solid #ffffff;

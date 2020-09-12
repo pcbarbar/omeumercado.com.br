@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
       /* IMAGEM DE FUNDO PARA O FAQ*/
@@ -26,7 +26,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
 <!-- FAQ - INÍCIO -->
     <section id="faq">
@@ -140,7 +140,7 @@
 <!-- FAQ - FINAL -->
 
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

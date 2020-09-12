@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
       .bgcontato {
@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
 <!-- MÓDULO CENTRAL - INICIO -->
     <div class="container-fluid bgcontato margem-superior-60 shadow rounded bg-white" style="width: 90%;">
@@ -35,7 +35,7 @@
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
     /* IMAGEM DE FUNDO PARA TEXTO DA BUSCA*/
@@ -24,7 +24,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
     
 <!-- RETORNO DA BUSCA - INÍCIO -->
       <div class="container bg-img mt-4 rounded shadow">
@@ -86,7 +86,7 @@
 <!-- PROCEDIMENTO CENTRAL IGUAL DO BUSCAPARCEIRO.PHP ---- FINAL -->
 
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

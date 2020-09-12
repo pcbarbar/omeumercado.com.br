@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
       .bordergreen {
@@ -48,7 +48,7 @@
   </head>
   <body>
     
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
 <!-- PRÉ CADASTRO COM SUCESSO OU NÃO, VINDO DE VALIDAPRECADASTRO.PHP | MODELO NÃO APAGAR-->
     <div class="container shadow rounded bordergreen big-banner">
@@ -67,7 +67,7 @@
         }
       ?>-->      
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>

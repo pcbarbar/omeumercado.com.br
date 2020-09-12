@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <?php include 'header.html'; ?>
+    <?php include 'templates/header.html'; ?>
 
     <style>
       /* EFEITO PARALLAX - SAIBAMAIS */
@@ -24,7 +24,7 @@
   </head>
   <body>
 
-    <?php include 'menu.html'; ?>
+    <?php include 'templates/menu.html'; ?>
 
     
 <!-- EFEITO PARALLAX NA IMAGEM DE BACKGROUND - INÍCIO -->
@@ -297,7 +297,7 @@ gratuidade
   </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
-    <?php include 'footer.html'; ?>
+    <?php include 'templates/footer.html'; ?>
 
   </body>
 </html>
