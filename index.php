@@ -32,26 +32,6 @@
 
     <?php include 'menu.html'; ?>
 
-<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - INICIO -->
-      <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Precisa de Ajuda?</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            Olá Parceiro! Olá Cliente Amigo! Para iniciar o cadastro basta preencher os campos corretamente: seu E-mail, nome completo, número do CPF, ddd e celular. Caso tenha um Cupom de Indicação, esse é o momento de usar, para mais informações basta consultar o FAQ disponível no menu. Após este pré-cadastro você receberá nosso E-mail de confirmação. Espero ter ajudado e seja bem-vindo ao OMeuMercado!!!
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Entendi!</button>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- MODAL PRECISA DE AJUDA? FORMULÁRIO - FINAL -->
 
 
 <!-- FORMULÁRIO DE CADASTRO - INICIO -->
@@ -201,7 +181,7 @@
 <!-- TEXTO PARA SE CADASTRAR ---- INÍCIO -->
     <div class="container margem-superior-60">
       <h1 class="h1responsiva"><strong><i class="fas fa-arrow-right"></i> Tudo pronto para começar?</strong></h1>
-      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="#cadastraragora">CLIQUE AQUI!</a></strong></h4>
+      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="cadastrar.php">CLIQUE AQUI!</a></strong></h4>
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 

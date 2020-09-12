@@ -15,8 +15,12 @@
       }
       /* ALTERAÇÃO: .CARD */
     	.cardform {
-    		background-color: #ffcc00;
-    		box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.7);
+    		background-color: #dcdcdc;
+        box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.7);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     	}
       .fixedpulse {
         position: fixed;
@@ -57,10 +61,10 @@
             </button>
           </div>
           <div class="modal-body">
-            Olá Parceiro! Olá Cliente Amigo! Para entrar em contato por meio do formulário basta preencher os campos corretamente: seu E-mail, Nome Completo, DDD, Celular e deixe uma mensagem com sua dúvida, crítica, sugestão ou pedido de informação. Após o envio entraremos em contato. Você também pode consultar o FAQ disponível no menu, a sua pergunta pode já ter sido respondida lá. Espero ter ajudado!!!
+            Olá, para entrar em contato por meio do formulário basta preencher os campos corretamente: seu E-mail, Nome Completo, DDD, Celular e deixe uma mensagem com sua dúvida, crítica, sugestão ou pedido de informação. Após o envio entraremos em contato. Você também pode consultar o FAQ disponível no menu, a sua pergunta pode já ter sido respondida lá. Espero ter ajudado!!!
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Entendi!</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal">Entendi!</button>
           </div>
         </div>
       </div>
@@ -69,7 +73,7 @@
 
 
 <!-- MÓDULO CENTRAL COM VÍDEO DE FORMULÁRIO - INICIO -->
-    <div class="container-fluid bgcontato margem-superior-30 shadow rounded bg-white" style="width: 90%;">
+    <div class="container-fluid bgcontato mt-4 shadow rounded bg-white" style="width: 90%;">
       <div class="row bg-white pt-4 pb-4 mr-4 ml-4">
         <div class="col-8">
           <h4 class="h4responsiva text-center">Você pode entrar em contato conosco por meio deste formulário,</h4>
@@ -85,30 +89,38 @@
         </div>
         <div class="col-4">
           <div class="cardform mr-4 ml-4">
-            <form method="post" class="login-form text-center">
+            <form method="post" class="text-center">
               <h4 class="font-weight-light mb-4">Contate-nos</h4>
-              <div class="form-group mb-1">
+              <div class="input-group mb-1">
+                <div class="input-group-prepend">
+									<span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+								</div>
                 <input type="email" class="form-control rounded-pill" id="email" name="email" minlength="6" maxlength="100" placeholder="E-mail" required>
               </div>
-              <div class="form-group mb-1">
+              <div class="input-group mb-1">
+                <div class="input-group-prepend">
+									<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+								</div>
                 <input type="text" class="form-control rounded-pill" id="nome" name="nome" minlength="2" maxlength="100" placeholder="Nome Completo" required>
               </div>
-              <div class="form-row">
-                <div class="form-group mb-1 col-md-4">
-                  <input type="int" class="form-control rounded-pill" id="ddd" name="ddd" minlength="2" maxlength="2" placeholder="DDD" required>
+              <div class="input-group mb-1">
+									<div class="input-group-prepend">
+										<span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+									</div>
+								<input name="" class="form-control rounded-pill" placeholder="DDD" maxlength="2" type="number" style="max-width: 100px;" required>
+								<input name="" class="form-control rounded-pill" placeholder="Celular" type="text" required>
+							</div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+									<span class="input-group-text"> <i class="fa fa-comment"></i> </span>
                 </div>
-                <div class="form-group mb-1 col-md-8">
-                  <input type="text" class="form-control rounded-pill" id="celular" name="celular" minlength="10" maxlength="10" placeholder="Celular" required>
-                </div>
-              </div>
-              <div class="form-group mb-1">
-                <input type="text" class="form-control rounded-pill" id="mensagem" name="mensagem" placeholder="Digite sua mensagem">
+                <input type="text" class="form-control rounded-pill" id="mensagem" name="mensagem" minlength="2" maxlength="100" placeholder="Digite sua mensagem" required>
               </div>
               <div>
-                <a href="#" data-toggle="modal" data-target="#modalExemplo"><h6 class="text-right mb-3">Precisa de ajuda?</h6></a>
-                <h1 class="text-left termos-contrato text-black mb-0">Ao enviar eu concordo que o OMEUMERCADO e seus representantes podem entrar em contato comigo por whatsapp, e-mail, telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que eu forneci, inclusive para fins de marketing.</h1>
+                <a style="text-decoration: none;" href="#" data-toggle="modal" data-target="#modalExemplo"><h6 class="text-right mb-3 mt-2">Precisa de ajuda?</h6></a>
+                <h1 class="termos-contrato text-black mb-0 text-justify">Ao enviar eu concordo que o OMEUMERCADO e seus representantes podem entrar em contato comigo por whatsapp, e-mail, telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que eu forneci, inclusive para fins de marketing.</h1>
+                <a class="" style="text-decoration: none;" href="#"><button class="btn btn-primary btn-block rounded-pill mt-3">Enviar <i class="far fa-arrow-alt-circle-right"></i></button></a>
               </div>
-              <button type="submit" class="btn mt-3 rounded-pill btn-lg btn-custom btn-block">ENVIAR <i class="far fa-arrow-alt-circle-right"></i></button>
             </form>
           </div>
         </div>
@@ -121,7 +133,7 @@
 <!-- TEXTO PARA SE CADASTRAR ---- INÍCIO -->
     <div class="container margem-superior-60">
       <h1 class="h1responsiva"><strong><i class="fas fa-arrow-right"></i> Tudo pronto para começar?</strong></h1>
-      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="index.php">CLIQUE AQUI!</a></strong></h4>
+      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="cadastrar.php">CLIQUE AQUI!</a></strong></h4>
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
