@@ -1,0 +1,216 @@
+/* ALTERAÇÃO DO .BODY - FONTE DE TEXTO GERAL MONTSERRAT SANS-SERIF */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #333;
+  background-color: #dcdcdc; /* FUNDO CINZA */
+  /*font-size: 16px;*/
+}
+
+/* IMAGENS RESPONSIVAS */
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FONTES RESPONSIVAS */
+.h1responsiva {font-size: calc(1.5em + 1vw);}
+.h2responsiva {font-size: calc(1em + 1vw);}
+.h3responsiva {font-size: calc(.76em + 1vw);}
+.h4responsiva {font-size: calc(.51em + 1vw);}
+.h5responsiva {font-size: calc(.26em + 1vw);}
+.h6responsiva {font-size: calc(.01em + 1vw);}
+.presponsiva {font-size: calc(.01em + 1vw);}
+/* FONTES RESPONSIVAS FINAS*/
+.h1responsiva-thin {font-size: calc(1.5em + 1vw); font-weight: 300;}
+.h2responsiva-thin {font-size: calc(1em + 1vw); font-weight: 300;}
+.h3responsiva-thin {font-size: calc(.76em + 1vw); font-weight: 300;}
+.h4responsiva-thin {font-size: calc(.51em + 1vw); font-weight: 300;}
+.h5responsiva-thin {font-size: calc(.26em + 1vw); font-weight: 300;}
+.h6responsiva-thin {font-size: calc(.01em + 1vw); font-weight: 300;}
+.presponsiva-thin {font-size: calc(.01em + 1vw); font-weight: 300;}
+
+
+
+/*----------------------------*\
+	Header
+\*----------------------------*/
+
+.top-header {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: #1E1F29;
+}
+.header-links li {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.header-links li:last-child {
+  margin-right: 0px;
+}
+.header-links li a {
+  color: #FFF;
+}
+.header-links li a:hover {
+  text-decoration: none;
+  color: #D10024;
+}
+.header-links li i {
+  color: #D10024;
+  margin-right: 5px;
+}
+
+
+/*----------------------------*\
+	Logo
+\*----------------------------*/
+
+.header {
+  padding: 0px 0px;
+  background-color: #15161D;
+}
+.header-logo {
+  float: left;
+}
+.header-logo .logo img {
+  display: block;
+}
+.header-logo {
+  float: none;
+  text-align: center;
+}
+.header-logo .logo {
+  display: inline-block;
+}
+
+
+
+/*-----------------------*\
+	 Procura Produtos
+\*-----------------------*/
+
+.header-search {
+  padding: 15px 0px;
+}
+.header-search form {
+  position: relative;
+}
+.header-search form .input-select {
+  /* Departamentos */
+  font-size: 12px;
+  margin-right: -5px;
+  margin-left: 0px;
+  padding: 11px 7px 10px 8px;
+  background-color: #f5f5f5;
+  border-radius: 40px 0px 0px 40px;
+}
+.header-search form .input {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 290px; /*Tamanho do campo do buscar*/
+  margin-right: -4px;
+}
+.search-btn {
+  /* Lupa - Buscar */
+  height: 40px;
+  width: 50px;
+  background: #D10024;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+}
+.search-btn:hover, .search-btn:focus {
+  background-color: #f30029;
+}
+
+
+/*------------------------------*\
+	  Carrinho e Minha Lista
+\*------------------------------*/
+
+.header-ctn {
+  float: right;
+  padding: 0px 0px;
+}
+.header-ctn>div {
+  display: inline-block;
+}
+.header-ctn>div+div {
+  margin-left: 15px;
+}
+.header-ctn>div>a {
+  display: block;
+  position: relative;
+  width: 90px;
+  text-align: center;
+  color: #FFF;
+}
+.header-ctn>div>a>i {
+  display: block;
+  font-size: 18px;
+}
+.header-ctn>div>a>span {
+  font-size: 12px;
+}
+.header-ctn>div>a>.qty {
+  position: absolute;
+  right: 15px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #FFF;
+  background-color: #D10024;
+}
+
+
+
+/*----------------------------*\
+	Main nav
+\*----------------------------*/
+
+.navigation {
+  background: #fff;
+  border-bottom: 2px solid #c4c4c4;
+  border-top: 3px solid #D10024;
+  font-weight: 600;
+  font-size: 14px;
+}
+.main-nav>li+li {
+  margin-left: 50px
+}
+.main-nav>li>a {
+  padding: 0px 0px;
+  margin-left: 10px;
+  color: #000;
+}
+.main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
+  color: #D10024;
+  background-color: transparent;
+}
+.main-nav>li>a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: #D10024;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.main-nav>li>a:hover:after, .main-nav>li>a:focus:after, .main-nav>li.active>a:after {
+  width: 100%;
+}
+.main-nav .dropdown a:hover{
+  color: #D10024;
+}
+.main-nav .dropdown-item {
+  font-size: 14px;
+  font-weight: 600;
+}
