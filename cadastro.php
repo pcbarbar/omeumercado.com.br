@@ -90,7 +90,7 @@
 						<div class="col-md-6">
 							<div class="form-group input-group">
 								<div class="input-group-prepend">
-									<span class="input-group-text"> <i class="fa fa-ticket-alt"></i> </span>
+									<span class="input-group-text"><i class="fa fa-ticket-alt"></i></span>
 								</div>
 								<input name="" class="form-control rounded-pill" placeholder="Cupom Indicação Opcional" type="text">
 							</div> <!-- form-group// -->

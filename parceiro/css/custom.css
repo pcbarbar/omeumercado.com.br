@@ -1,12 +1,43 @@
 /* ALTERAÇÃO DO .BODY - FONTE DE TEXTO GERAL MONTSERRAT SANS-SERIF */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+html,
 body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #333;
   background-color: #dcdcdc; /* FUNDO CINZA */
-  /*font-size: 16px;*/
+  font-size: 16px;
+	-webkit-font-smoothing: antialiased;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+}
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #ffffff;
+}
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
 
 /* IMAGENS RESPONSIVAS */
 .img {
@@ -38,20 +69,20 @@ body{
 \*----------------------------*/
 
 .top-header {
-  padding-top: 10px;
-  padding-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   background-color: #1E1F29;
 }
 .header-links li {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 5px; /* Espaçamento da imagem do cliente */
   font-size: 12px;
 }
 .header-links li:last-child {
   margin-right: 0px;
 }
 .header-links li a {
-  color: #FFF;
+  color: #fff;
 }
 .header-links li a:hover {
   text-decoration: none;
@@ -102,24 +133,24 @@ body{
   font-size: 12px;
   margin-right: -5px;
   margin-left: 0px;
-  padding: 11px 7px 10px 8px;
+  padding: 13px 7px 11px 8px;
   background-color: #f5f5f5;
   border-radius: 40px 0px 0px 40px;
 }
 .header-search form .input {
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 10px;
   padding-bottom: 8px;
-  width: 290px; /*Tamanho do campo do buscar*/
+  width: 240px; /*Tamanho do campo do buscar*/
   margin-right: -4px;
 }
 .search-btn {
   /* Lupa - Buscar */
-  height: 40px;
+  height: 45px;
   width: 50px;
   background: #D10024;
   color: #FFF;
-  font-weight: 700;
+  font-weight: 500;
   border: none;
   border-radius: 0px 40px 40px 0px;
 }
@@ -178,17 +209,19 @@ body{
 
 .navigation {
   background: #fff;
-  border-bottom: 2px solid #c4c4c4;
+  border-bottom: 2px solid #bbbbbb;
   border-top: 3px solid #D10024;
   font-weight: 600;
   font-size: 14px;
+  text-align: center;
 }
 .main-nav>li+li {
-  margin-left: 50px
+  margin-left: 27px /*espaçamento entre links */
 }
 .main-nav>li>a {
-  padding: 0px 0px;
-  margin-left: 10px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 0px;
+  margin-left: 19px; /* margem esquerda dos links */
   color: #000;
 }
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
@@ -207,10 +240,110 @@ body{
 .main-nav>li>a:hover:after, .main-nav>li>a:focus:after, .main-nav>li.active>a:after {
   width: 100%;
 }
-.main-nav .dropdown a:hover{
-  color: #D10024;
+
+
+/**********************/
+/* Card Departamentos */
+/**********************/
+
+.linhadepar {
+  border-bottom: 3px solid #D10024;
+  text-align: left;
+  max-width: 350px;
 }
-.main-nav .dropdown-item {
-  font-size: 14px;
+.carddepart .card:hover{
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+  border-radius: 1px 1px 1px 1px;
+  border-color: #f8c1c1;
+  text-align: center; 
+}
+.carddepart .card-title{
   font-weight: 600;
+  font-size: 14px;
+  color: #4b1616;
+}
+
+
+/**********************/
+/* FOOTER */
+/**********************/
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #15161D;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #15161D !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/************************/
+.marca{
+  display: inline-block;
+  margin-left: 7px;
 }
