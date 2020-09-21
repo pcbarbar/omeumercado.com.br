@@ -5,7 +5,9 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #333;
-  background-color: #dcdcdc; /* FUNDO CINZA */
+  background-color: #dad3c4; /* FUNDO BEGE */
+  /*background-color: #dcdcdc; /* FUNDO CINZA */
+  /*background-color: #000000; /* FUNDO PRETO */
   font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -209,19 +211,14 @@ ol {
 
 .navigation {
   background: #fff;
-  border-bottom: 2px solid #bbbbbb;
+  /*border-bottom: 2px solid #c5b699;*/
   border-top: 3px solid #D10024;
   font-weight: 600;
   font-size: 14px;
   text-align: center;
 }
-.main-nav>li+li {
-  margin-left: 27px /*espaçamento entre links */
-}
 .main-nav>li>a {
   padding: 0px 0px 0px 0px;
-  margin-right: 0px;
-  margin-left: 19px; /* margem esquerda dos links */
   color: #000;
 }
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
@@ -249,18 +246,14 @@ ol {
 .linhadepar {
   border-bottom: 3px solid #D10024;
   text-align: left;
-  max-width: 350px;
 }
-.carddepart .card:hover{
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
-  border-radius: 1px 1px 1px 1px;
-  border-color: #f8c1c1;
-  text-align: center; 
+.carddepart a {
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0,0,0,.5);
 }
-.carddepart .card-title{
-  font-weight: 600;
-  font-size: 14px;
-  color: #4b1616;
+.carddepart .card:hover {
+  transition: all .4s ease;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.9);
 }
 
 
@@ -342,8 +335,58 @@ section .section-title {
 }
 }
 
-/************************/
+/********   MARCAS ****************/
 .marca{
   display: inline-block;
   margin-left: 7px;
+}
+
+
+/**********************/
+/* CARD PRODUTOS      */
+/**********************/
+
+.cardprod .card:hover {
+  transition: all 0.4s ease;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.9);
+  border-radius: 2px 2px 2px 2px;
+  border-color: #8a8a8a;
+}
+.cardprod .card {
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+.cardprod .card-desc {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.card-notify-oferta {
+  position: absolute;
+  left: -15px;
+  top: -25px;
+  background: #ff0000;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px; 
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.btn-minhalista {
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  background: #ffc107;
+  border-radius: 50%;
+  text-align: center;
+  color: #212529;
+  font-size: 28px; 
+  width: 50px;
+  height: 50px;    
+  padding: 5px 0 0 0;
+}
+
+.btn-minhalista a:hover {
+  background: #000000;
 }
