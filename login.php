@@ -36,7 +36,7 @@
 	<div class="container register rounded shadow mt-3">
 		<div class="row">
 			<div class="col-md-4 register-left">
-				<img src="imagens/logoomeumercado90.png" alt=""/>
+				<img src="imagens/logoomeumercado.png" alt=""/>
 				<h3>Bem-vindo</h3>
 				<p>Parceiro, você está acessando sua área exclusiva de administração</p>
 				<h6 style="font-weight: 300;">Ainda não tem conta?</h6>

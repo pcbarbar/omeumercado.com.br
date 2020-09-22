@@ -65,6 +65,42 @@ ol {
 .presponsiva-thin {font-size: calc(.01em + 1vw); font-weight: 300;}
 
 
+/************************************************/
+/* TRATAMENTO DOS TAMANHOS DE TELAS RESPONSIVAS */
+/************************************************/
+@media (max-width: 575px) {
+  /*body {background-color: #000000;}*/
+  .cardprod-img {max-width: 130px; max-height: 130px;}
+  .cardprodcar-img {max-width: 130px; max-height: 130px;}
+  .carddepart-img {max-width: 150px; max-height: 230px;}
+}
+@media (min-width: 576px) {
+  /*body {background-color: #ffd300;}*/
+  .cardprod-img {max-width: 190px; max-height: 190px;}
+  .carddepart-img {max-width: 150px; max-height: 230px;}
+}
+@media (min-width: 768px) {
+  /*body {background-color: #ff0000;}*/
+  .cardprod-img {max-width: 190px; max-height: 190px;}
+  .carddepart-img {max-width: 150px; max-height: 230px;}
+}
+@media (min-width: 992px) {
+  /*body {background-color: #ffffff;}*/
+  .cardprod-img {max-width: 190px; max-height: 190px;}
+  .carddepart-img {max-width: 150px; max-height: 230px;}
+}
+@media (min-width: 1200px) {
+  /*body {background-color: #120a8f;}*/
+  .cardprod-img {max-width: 235px; max-height: 235px;}
+  .carddepart-img {max-width: 150px; max-height: 230px;}
+}
+/*******************************************************/
+
+.linhadepar {
+  border-bottom: 3px solid #D10024;
+  text-align: left;
+}
+
 
 /*----------------------------*\
 	Header
@@ -161,10 +197,10 @@ ol {
 }
 
 
+
 /*------------------------------*\
 	  Carrinho e Minha Lista
 \*------------------------------*/
-
 .header-ctn {
   float: right;
   padding: 0px 0px;
@@ -239,32 +275,30 @@ ol {
 }
 
 
+
 /**********************/
 /* Card Departamentos */
 /**********************/
-
-.linhadepar {
-  border-bottom: 3px solid #D10024;
-  text-align: left;
-}
 .carddepart a {
   transition: all 0.3s ease;
-  box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+  box-shadow: 0px 0px 5px rgba(0,0,0,.9);
 }
 .carddepart .card:hover {
   transition: all .4s ease;
-  box-shadow: 0px 0px 20px rgba(0,0,0,.9);
+  box-shadow: 0px 0px 20px rgba(0,0,0,1);
+}
+.carddepart-img{
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
 
-
 /**********************/
-/* FOOTER */
+/*      FOOTER        */
 /**********************/
-
 section {
     padding: 60px 0;
 }
-
 section .section-title {
     text-align: center;
     color: #15161D;
@@ -325,7 +359,6 @@ section .section-title {
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
 }
-
 @media (max-width:767px){
 	#footer h5 {
     padding-left: 0;
@@ -334,17 +367,19 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+/**********************************************/
 
-/********   MARCAS ****************/
+
+/********   MARCAS **********/
 .marca{
   display: inline-block;
   margin-left: 7px;
 }
 
 
-/**********************/
-/* CARD PRODUTOS      */
-/**********************/
+/*************************/
+/*    CARD DE PRODUTOS   */
+/*************************/
 
 .cardprod .card:hover {
   transition: all 0.4s ease;
@@ -386,7 +421,24 @@ section .section-title {
   height: 50px;    
   padding: 5px 0 0 0;
 }
-
 .btn-minhalista a:hover {
   background: #000000;
 }
+/* EFEITO BOTÃO NO CARD PRODUTO*/
+.btnprodcar a {
+  background: #ffc107;
+  color: #212529;
+  border-radius: 5px;
+  padding: 10px 22px 10px 22px;
+  /*box-shadow: 3px 3px 5px #777;*/
+}
+.btnprodcar a:hover {
+  background: #d19d00;
+}
+.cardprod-img {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+/**************************************************************/

@@ -65,7 +65,7 @@
     <div class="container mt-5">
       <h3 class="h3responsiva-thin">Olá Cliente amigo!</h3>
       <h3 class="h3responsiva-thin">Se ainda não é cadastrado pode fazer isto agora mesmo!</h3>
-      <h5 class="h4responsiva"><a class="text-warning" style="text-decoration: none;" href="cadastrar.php"><strong>CLIQUE AQUI PARA SE CADASTRAR!</strong></a></h5>
+      <h5 class="h4responsiva"><a class="text-warning" style="text-decoration: none;" href="precadastro.php"><strong>CLIQUE AQUI PARA SE CADASTRAR!</strong></a></h5>
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 

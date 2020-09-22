@@ -29,8 +29,8 @@
 <!-- RETORNO DA BUSCA - INÍCIO -->
       <div class="container bg-img mt-4 rounded shadow">
         <div class="row big-banner ml-4 pb-5 pt-5 rounded">
-          <h4 class="h4responsiva ml-4">Você encontrou <strong>3</strong> estabelecimentos credenciados:</h4>
-          <h6 class="h6responsiva ml-4">Se ainda não encontrou quem procurava, não se preocupe, você pode utilizar seu código de indicação para efetivar um PARCEIRO, assim conseguirá CUPONS de DESCONTO para fazer suas futuras compras!</h6>
+          <h4 class="ml-4">Você encontrou <strong>3</strong> estabelecimentos credenciados:</h4>
+          <h6 class="ml-4">Se ainda não encontrou quem procurava, não se preocupe, você pode utilizar seu código de indicação para efetivar um PARCEIRO, assim conseguirá CUPONS de DESCONTO para fazer suas futuras compras!</h6>
         </div>
       </div>
 

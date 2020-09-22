@@ -11,7 +11,7 @@
       .bgcontato {
         background-image: url("imagens/bg_contato.jpg");
         background-repeat: repeat;
-        background-size: 50%;
+        background-size: 30%;
       }
       /* ALTERAÇÃO: .CARD */
     	.cardform {
@@ -75,10 +75,9 @@
 <!-- MÓDULO CENTRAL COM VÍDEO DE FORMULÁRIO - INICIO -->
     <div class="container-fluid bgcontato mt-4 shadow rounded bg-white" style="width: 90%;">
       <div class="row bg-white pt-4 pb-4 mr-4 ml-4">
-        <div class="col-8">
-          <h4 class="h4responsiva text-center">Você pode entrar em contato conosco por meio deste formulário,</h4>
-          <h6 class="h6responsiva text-center">ou ligar diretamente para (00)3986-3986 ou (00)98765-0102 e falar com um de nossos atendentes.</h6>
-          <h6 class="h6responsiva text-center">Ou pode ainda, clicar no botão pulsante para falar diretamente conosco por meio de nosso Whatsapp!</h6>
+        <div class="col-12 col-xl-8">
+          <h4 class="text-center">Você pode entrar em contato conosco por meio deste formulário,</h4>
+          <h6 class="text-center">ligar diretamente para os telefones (00)3986-3986 | (00)98765-0102 ou pelo Whatsapp e falar com um de nossos atendentes, estamos sempre prontos para atendê-lo.</h6>
           <div class="container mt-5">
             <div class="container-fluid pr-0 pl-0" style="width: 60%;">
               <div class="rounded shadow embed-responsive embed-responsive-16by9">
@@ -87,7 +86,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-xl-4">
           <div class="cardform mr-4 ml-4">
             <form method="post" class="text-center">
               <h4 class="font-weight-light mb-4">Contate-nos</h4>
@@ -133,7 +132,7 @@
 <!-- TEXTO PARA SE CADASTRAR ---- INÍCIO -->
     <div class="container margem-superior-60">
       <h1 class="h1responsiva"><strong><i class="fas fa-arrow-right"></i> Tudo pronto para começar?</strong></h1>
-      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="cadastrar.php">CLIQUE AQUI!</a></strong></h4>
+      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="precadastro.php">CLIQUE AQUI!</a></strong></h4>
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 

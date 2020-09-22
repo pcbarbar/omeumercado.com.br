@@ -125,7 +125,7 @@
 <!-- TEXTO PARA SE CADASTRAR ---- INÍCIO -->
     <div class="container margem-superior-60">
       <h1 class="h1responsiva"><strong><i class="fas fa-arrow-right"></i> Tudo pronto para começar?</strong></h1>
-      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="cadastrar.php">CLIQUE AQUI!</a></strong></h4>
+      <h4 class="mt-3 font-weight-normal text-warning col-8 text-center h4responsiva"><strong> CADASTRE-SE AGORA! <a class="text-warning" style="text-decoration: none;" href="precadastro.php">CLIQUE AQUI!</a></strong></h4>
     </div>
 <!-- TEXTO PARA SE CADASTRAR ---- FINAL -->
 
