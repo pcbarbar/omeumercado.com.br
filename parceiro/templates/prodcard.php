@@ -3,7 +3,7 @@
             <span class="card-notify-oferta"><i class="fa fa-tag"></i> OFERTA</span>
             <a type="button" class="btn-minhalista" href="#"><i class="far fa-list-alt"></i></a>  
             <!-- Se já estiver na minha lista | fas fa-list-alt -->
-            <a href="produto.php">
+            <a href="proddetails.php">
               <img class="cardprod-img mx-auto d-block" src="imagens/wella.png">
               <hr class="mb-3 mt-1">
               <!--Se houver desconto -->
@@ -34,7 +34,7 @@
               </div>
               <div class="col-4 col-xl-4 pl-0 pr-0 text-center">
                 <div class="btnprodcar">
-                  <a href="produto.php"><i class="text-dark fas fa-eye"></i></a>
+                  <a href="proddetails.php"><i class="text-dark fas fa-eye"></i></a>
                 </div>
               </div>
             </div>

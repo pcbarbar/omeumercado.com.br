@@ -143,15 +143,14 @@
 <!-- MINHA LISTA DE PRODUTOS - INICIO -->
     <div class="container rounded cardprod">
       <div class="row">
-        <?php include 'templates/cardproduto.php'; ?>
-        <?php include 'templates/cardproduto.php'; ?>
-        <?php include 'templates/cardproduto.php'; ?>
-        <?php include 'templates/cardproduto.php'; ?>
-
-        <?php include 'templates/cardproduto.php'; ?>
-        <?php include 'templates/cardproduto.php'; ?>
-        <?php include 'templates/cardproduto.php'; ?>
-        <?php include 'templates/cardproduto.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
+        <?php include 'templates/prodcard.php'; ?>
       </div>
     </div>
 <!-- MINHA LISTA DE PRODUTOS - FINAL -->    
