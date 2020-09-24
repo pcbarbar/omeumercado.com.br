@@ -24,7 +24,7 @@
             <div class="row mt-3 mb-3 mr-0 ml-0 align-items-center">
               <div class="col-4 col-xl-4 pl-0 pr-0">
                 <form>
-                  <input class="form-control text-dark" value="1" type="number" name="qtd" style="border-color: #ffc107;">
+                  <input class="form-control text-dark" value="1" min="1" type="number" name="qtd" style="border-color: #ffc107;">
                 </form>
               </div>
               <div class="col-4 col-xl-4 pl-1 pr-0 text-center">
