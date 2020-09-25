@@ -147,3 +147,18 @@
   </div>
   </div>
 <!-- MODAL PRECISA DE AJUDA? NAVBAR - FINAL -->
+
+<!-- MODAL ADICIONADO AO CARRINHO - INICIO -->
+<div class="modal fade" id="modaladdcart" tabindex="-1" role="dialog" aria-labelledby="modaladdcart" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content border text-white bg-warning">
+      <div class="modal-header">
+        <h6 class="modal-title" id="modaladdcart"><i class="fa fa-shopping-cart"></i> Produto adicionado ao carrinho com sucesso!</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL ADICIONADO AO CARRINHO - FINAL -->

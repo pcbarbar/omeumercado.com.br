@@ -13,7 +13,7 @@
   </head>
   <body>
 
-    <?php include 'templates/menu.html'; ?>
+    <?php include 'templates/menu.php'; ?>
 
     <!-- CAROUSEL - INICIO -->
     <div class="container shadow pr-0 pl-0">

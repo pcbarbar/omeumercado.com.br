@@ -75,26 +75,31 @@ ol {
   .cardprod-img {max-width: 130px; max-height: 130px;}
   .cardprodcar-img {max-width: 130px; max-height: 130px;}
   .carddepart-img {max-width: 150px; max-height: 230px;}
+  .imgproddetails {max-width: 400px; max-height: 400px;}
 }
 @media (min-width: 576px) {
   /*body {background-color: #ffd300;}*/
   .cardprod-img {max-width: 190px; max-height: 190px;}
   .carddepart-img {max-width: 150px; max-height: 230px;}
+  .imgproddetails {max-width: 450px; max-height: 450px;}
 }
 @media (min-width: 768px) {
   /*body {background-color: #ff0000;}*/
   .cardprod-img {max-width: 190px; max-height: 190px;}
   .carddepart-img {max-width: 150px; max-height: 230px;}
+  .imgproddetails {max-width: 300px; max-height: 300px;}
 }
 @media (min-width: 992px) {
   /*body {background-color: #ffffff;}*/
   .cardprod-img {max-width: 190px; max-height: 190px;}
   .carddepart-img {max-width: 150px; max-height: 230px;}
+  .imgproddetails {max-width: 500px; max-height: 500px;}
 }
 @media (min-width: 1200px) {
   /*body {background-color: #120a8f;}*/
   .cardprod-img {max-width: 235px; max-height: 235px;}
   .carddepart-img {max-width: 150px; max-height: 230px;}
+  .imgproddetails {max-width: 600px; max-height: 600px;}
 }
 /*******************************************************/
 
@@ -531,3 +536,155 @@ div.card .card-header-danger {
   position: relative;
 }
 /*******************************************************/
+
+
+
+/*---------------------
+  Shop Cart
+-----------------------*/
+
+.shoping__cart {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Courier Prime', monospace;
+
+}
+.shoping__cart__table {
+	margin-bottom: 30px;
+}
+.shoping__cart__table table {
+	width: 100%;
+	text-align: center;
+}
+.shoping__cart__table table thead tr {
+	border-bottom: 3px solid #a3a3a3;
+}
+.shoping__cart__table table thead th {
+	font-size: 18px;
+	font-weight: 700;
+	color: #292929;
+	padding-bottom: 20px;
+}
+.shoping__cart__table table thead th.shoping__product {
+	text-align: left;
+}
+.shoping__cart__table table tbody tr td {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.shoping__cart__table table tbody tr td.shoping__cart__item {
+  width: 600px;
+	text-align: left;
+}
+
+.shoping__cart__table table tbody tr td.shoping__cart__item img {
+	display: inline-block;
+  margin-right: 25px;
+  width: 80px;
+  height: 80px;
+}
+.shoping__cart__table table tbody tr td.shoping__cart__item h6 {
+	color: #1c1c1c;
+	display: inline-block;
+}
+.shoping__cart__table table tbody tr td.shoping__cart__price {
+	font-size: 16px;
+	color: #1c1c1c;
+	font-weight: 700;
+	width: 100px;
+}
+.shoping__cart__table table tbody tr td.shoping__cart__qtd {
+	width: 230px;
+}
+.shoping__cart__table table tbody tr td.shoping__cart__total {
+	font-size: 16px;
+	color: #1c1c1c;
+	font-weight: 700;
+	width: 140px;
+}
+.shoping__checkout {
+	background: #ececec;
+	padding: 30px;
+	padding-top: 20px;
+}
+
+.shoping__checkout h5 {
+	color: #1c1c1c;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 28px;
+}
+
+.shoping__checkout ul {
+	margin-bottom: 28px;
+}
+
+.shoping__checkout ul li {
+	font-size: 14px;
+	color: #1c1c1c;
+	font-weight: 700;
+	list-style: none;
+	overflow: hidden;
+}
+
+.shoping__checkout ul li:last-child {
+	padding-bottom: 0;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.shoping__checkout ul li span {
+	font-size: 16px;
+	/*color: #dd2222;*/
+	float: right;
+}
+
+
+/**********************************/
+/* Switch 1 Specific Styles Start */
+
+input[type="checkbox"].switch_1{
+	font-size: 18px;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	width: 3.5em;
+	height: 1.5em;
+	background: #ddd;
+	border-radius: 3em;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].switch_1:checked{
+	background: #0ebeff;
+  }
+  
+  input[type="checkbox"].switch_1:after{
+	position: absolute;
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	        box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	-webkit-transform: scale(.7);
+	        transform: scale(.7);
+	left: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].switch_1:checked:after{
+	left: calc(100% - 1.5em);
+  }
+	
+/* Switch 1 Specific Style End */
+/*******************************/

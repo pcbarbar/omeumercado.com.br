@@ -55,8 +55,9 @@
 					</li>
 				</ul>
 
-				<!-- CADASTRO DE CLIENTE -->
 				<div class="tab-content pt-5" id="myTabContent">
+					
+					<!-- CADASTRO DE CLIENTE -->
 					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 						<h3 class="register-heading">Quero criar conta como Cliente</h3>
 						<div class="row register-form">

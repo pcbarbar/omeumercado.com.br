@@ -9,14 +9,14 @@
   </head>
   <body>
 
-    <?php include 'templates/menu.html'; ?>
+    <?php include 'templates/menu.php'; ?>
 
     <div class="container bg-white mt-5 rounded shadow">
       <div class="row pt-3 pb-3 pr-3 pl-3">
-        <div class="col-8"> <!-- Coluna da Imagem-->
-          <img class="mx-auto d-block" src="imagens/wella.png" style="max-width: 600px">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 mb-3"> <!-- Coluna da Imagem-->
+          <img class="imgproddetails mx-auto d-block" src="imagens/wella.png">
         </div> <!-- Coluna da Imagem-->
-        <div class="col-4 rounded border"> <!-- Coluna dos Detalhes-->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4 mt-3 rounded border"> <!-- Coluna dos Detalhes-->
           <div class="container mt-5">
             <div class="row"> <!-- Descrição e Preços -->
               <span class="card-notify-oferta"><i class="fa fa-tag"></i> OFERTA</span>
@@ -34,17 +34,17 @@
                 <h5 class="text-success align-top">15% OFF</h5>
               </div>
             </div> <!-- Descrição e Preços -->
-            <div class="row mt-3 ml-1">
+            <div class="row mt-3">
               <span class="text-info" style="font-size: 13px;"><strong><i class="fas fa-info-circle"></i> Estoque Disponível</strong></span>
               <!--<span class="text-danger" style="font-size: 13px;"><strong><i class="fas fa-info-circle"></i> Estoque Indisponível</strong></span>-->
             </div>
-            <div class="row mt-1 ml-1">
+            <div class="row mt-1">
               <span class="text-info" style="font-size: 13px;"><strong><i class="fas fa-info-circle"></i> Prazo de Entrega: 5 horas</strong></span>
             </div>
-            <div class="row mt-0 ml-1">
-              <a href="trocaedevol.php"><span class="text-info" style="font-size: 13px;"><strong><i class="fas fa-info-circle"></i><u> Política de Trocas e Devoluções</u></strong></span></a>
+            <div class="row mt-0">
+              <a href="trocaedevol.php" target="_blank"><span class="text-info" style="font-size: 13px;"><strong><i class="fas fa-info-circle"></i><u> Política de Trocas e Devoluções</u></strong></span></a>
             </div>
-            <div class="row mt-3 ml-1">
+            <div class="row mt-3">
               <span class="text-secondary text-justify" style="font-size: 13px;">Outras Informações Pertinentes: Tipos de Pagamentos, Aceita Cartões e Boletos, Tempo de Entrega, Mais Vendidos, Parte de alguma Receita de Minhas Receitas, etc...</span>
             </div>
             <div class="row mt-4 ml-2"> <!-- QUANTIDADE | INICIO-->
@@ -63,7 +63,7 @@
                 </div>
               </div>
               <div class="col-7 pr-0 pl-0">
-                <a href="#"><button class="btn btn-warning rounded pt-2 pb-2 w-100" style="font-size: 13px;"><strong>Adicionar ao carrinho</strong><i class="fa fa-shopping-cart"></i></button></a>
+                <a href="#" data-toggle="modal" data-target="#modaladdcart"><button class="btn btn-warning rounded pt-2 pb-2 w-100" style="font-size: 13px;"><strong>Adicionar ao carrinho</strong><i class="fa fa-shopping-cart"></i></button></a>
               </div>
             </div> <!-- QUANTIDADE | FINAL -->
             <div class="row mt-1 mb-2">
